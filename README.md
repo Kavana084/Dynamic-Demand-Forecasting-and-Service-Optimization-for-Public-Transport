@@ -3,8 +3,8 @@ Public transportation is prone to problems such as congestion, delays, lengthy w
 	
 ## My Understanding of the Problem
 ### Key issues identified:	
-####•	Inaccurate passenger demand prediction 
-####•	Inefficient scheduling and bus allocation 
+#### 1 Inaccurate passenger demand prediction 
+#### 2 Inefficient scheduling and bus allocation 
 ## Why this problem exists:
 •	Fixed scheduling systems 
 •	Poor use of historical and real-time data 
