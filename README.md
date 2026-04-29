@@ -2,13 +2,13 @@
 Public transportation is prone to problems such as congestion, delays, lengthy wait times, and inefficient distribution of resources because the number of passengers keeps changing depending on the time and route among other variables.
 	
 ## My Understanding of the Problem
-# Key issues identified:	
+### Key issues identified:	
 •	Inaccurate passenger demand prediction 
 •	Inefficient scheduling and bus allocation 
-# Why this problem exists:
+## Why this problem exists:
 •	Fixed scheduling systems 
 •	Poor use of historical and real-time data 
-# My assumptions:
+## My assumptions:
 •	Demand can be predicted using data analysis 
 •	Dynamic scheduling can improve efficiency 
 # Research on Existing Solutions
