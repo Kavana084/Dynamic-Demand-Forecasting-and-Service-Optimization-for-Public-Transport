@@ -121,4 +121,4 @@
 
 ### Project Goal
 
-#### Develop a smart AI-based public transport optimization system that predicts #### demand in real time and improves scheduling, routing, and resource allocation #### to reduce congestion and improve efficiency.
+#### Develop a smart AI-based public transport optimization system that predicts demand in real time and improves scheduling, routing, and resource allocation #### to reduce congestion and improve efficiency.
