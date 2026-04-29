@@ -1,7 +1,7 @@
-Dynamic Demand Forecasting and Service Optimization for Public Transport
+## Dynamic Demand Forecasting and Service Optimization for Public Transport
 Public transportation is prone to problems such as congestion, delays, lengthy wait times, and inefficient distribution of resources because the number of passengers keeps changing depending on the time and route among other variables.
 	
-My Understanding of the Problem
+## My Understanding of the Problem
 Key issues identified:	
 •	Inaccurate passenger demand prediction 
 •	Inefficient scheduling and bus allocation 
