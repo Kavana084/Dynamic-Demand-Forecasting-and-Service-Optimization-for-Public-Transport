@@ -93,15 +93,15 @@ ITS is the only solution that gives authorities operational visibility in real t
 
 Examining the comparison as a whole reveals five dominant patterns that cut across all solutions. These patterns explain why the structural gap exists — it is not a missing feature but the logical consequence of how every existing solution was designed.
 
-**Pattern 1 — Passenger-only orientation:** The three most technically capable solutions (Google Maps, Moovit, Citymapper) target passengers exclusively. This is a commercial design choice: these are consumer products. But the consequence is that the most data-rich tools in the ecosystem have zero integration with the systems that plan and deploy services.
+- **Pattern 1 — Passenger-only orientation:** The three most technically capable solutions (Google Maps, Moovit, Citymapper) target passengers exclusively. This is a commercial design choice: these are consumer products. But the consequence is that the most data-rich tools in the ecosystem have zero integration with the systems that plan and deploy services.
 
-**Pattern 2 — Reactive architecture, universally:** Every solution responds to demand after it manifests. No solution models demand before it arrives. This is not an individual oversight — it is a universal design intent. The systems were built to inform, not to forecast.
+- **Pattern 2 — Reactive architecture, universally:** Every solution responds to demand after it manifests. No solution models demand before it arrives. This is not an individual oversight — it is a universal design intent. The systems were built to inform, not to forecast.
 
-**Pattern 3 — Data siloing by design:** Each solution owns its data pipeline and does not share signals across the passenger-authority divide. Passenger apps collect crowd and flow data; authority tools collect GPS and operational data. Each pipeline solves a fraction of the problem in isolation.
+- **Pattern 3 — Data siloing by design:** Each solution owns its data pipeline and does not share signals across the passenger-authority divide. Passenger apps collect crowd and flow data; authority tools collect GPS and operational data. Each pipeline solves a fraction of the problem in isolation.
 
-**Pattern 4 — Static scheduling as invisible infrastructure:** Even ITS — the most advanced authority-side tool — measures its performance against static timetables. Schedule adherence is its primary metric. The static schedule is not a limitation ITS tries to overcome; it is the baseline ITS was built on top of.
+- **Pattern 4 — Static scheduling as invisible infrastructure:** Even ITS — the most advanced authority-side tool — measures its performance against static timetables. Schedule adherence is its primary metric. The static schedule is not a limitation ITS tries to overcome; it is the baseline ITS was built on top of.
 
-**Pattern 5 — Monitoring without action:** ITS provides genuine real-time operational awareness. But awareness and action are separated by a manual decision step. The system monitors; it does not optimize. Knowing where buses are does not automatically improve where they go next.
+- **Pattern 5 — Monitoring without action:** ITS provides genuine real-time operational awareness. But awareness and action are separated by a manual decision step. The system monitors; it does not optimize. Knowing where buses are does not automatically improve where they go next.
 
 The shared assumption underlying all five patterns is that demand management is not the system's job. This is the structural reason the forecasting-optimization gap exists across all five solutions.
 
