@@ -1,10 +1,10 @@
-# 🚌 Dynamic Demand Forecasting & Service Optimization for Public Transport
+#  Dynamic Demand Forecasting & Service Optimization for Public Transport
 
 > A smart system to predict passenger demand and optimize bus allocation and scheduling in real time.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
 - [Root Cause Analysis](#root-cause-analysis)
@@ -18,7 +18,7 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 Public transport systems fail because service supply is decided by fixed schedules, not by actual passenger demand. This leads to overcrowded buses at peak hours, near-empty buses off-peak, and slow responses to disruptions.
 
@@ -26,7 +26,7 @@ This project builds a data-driven system that forecasts demand and adjusts servi
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 Buses are overcrowded during peak hours, underutilized off-peak, and unable to respond to sudden demand spikes — all because passenger demand is never accurately predicted in advance.
 
@@ -35,7 +35,7 @@ Buses are overcrowded during peak hours, underutilized off-peak, and unable to r
 
 ---
 
-## 🔎 Root Cause Analysis (5 Whys)
+##  Root Cause Analysis (5 Whys)
 
 - Buses are overcrowded and delayed because allocation doesn't match actual demand
 - Allocation doesn't match demand because no accurate forecasting method exists
@@ -45,7 +45,7 @@ Buses are overcrowded during peak hours, underutilized off-peak, and unable to r
 
 ---
 
-## 🔬 Research on Existing Solutions
+##  Research on Existing Solutions
 
 **Google Maps Transit** helps passengers plan journeys using real-time traffic data and multi-modal routing. It is widely used but focused entirely on navigation, not on how the transport network is managed.
 
@@ -59,7 +59,7 @@ Buses are overcrowded during peak hours, underutilized off-peak, and unable to r
 
 ---
 
-## 📊 Comparative Analysis
+##  Comparative Analysis
 
 Comparison reveals not just what each solution does differently, but why those differences matter — and where all solutions share the same structural blind spot.
 
@@ -89,7 +89,7 @@ ITS is the only solution that gives authorities operational visibility in real t
 
 ---
 
-## 🔁 Pattern Identification
+##  Pattern Identification
 
 Examining the comparison as a whole reveals five dominant patterns that cut across all solutions. These patterns explain why the structural gap exists — it is not a missing feature but the logical consequence of how every existing solution was designed.
 
@@ -107,7 +107,7 @@ The shared assumption underlying all five patterns is that demand management is 
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 Each limitation below is grounded in the comparative analysis above. Generic observations have been excluded. Every limitation is supported by specific evidence from the comparison.
 
@@ -163,7 +163,7 @@ These are not rare edge cases. Major events occur weekly in any large city. Weat
 
 ---
 
-## 💡 Identified Gap
+##  Identified Gap
 
 The five limitations converge on a single structural gap: no existing solution integrates demand prediction with operational action.
 
@@ -176,7 +176,7 @@ Three specific capabilities are absent across all five solutions:
 
 ---
 
-## 🚀 Proposed Approach
+##  Proposed Approach
 
 Build a system using historical data, GPS, and real-time inputs to forecast demand by route and time, recommend dynamic bus allocation and schedule changes, alert authorities to demand spikes before service degrades, and give passengers live crowd and delay updates.
 
@@ -184,7 +184,7 @@ Build a system using historical data, GPS, and real-time inputs to forecast dema
 
 ---
 
-## 📅 Next Steps
+##  Next Steps
 
 - [ ] Identify data sources — GTFS feeds, GPS telemetry, ticketing data, weather APIs, event calendars
 - [ ] Prototype the demand forecasting model starting with time-series regression
