@@ -4,7 +4,7 @@
   <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="200"/>
 </p>
 
-<h1 align="center">AI-Driven Dynamic Bus Scheduling</h1>
+<h1 align="center">AI-Driven Dynamic Forecasting and Service Optimization</h1>
 <h3 align="center">Integrating Demand Forecasting and Adaptive Optimization for Smart Public Transit</h3>
 
 
@@ -17,13 +17,13 @@
 |---|---|---|---|
 | H.Kavana | 1DA24MC022 | MCA | Dr Ambedkar Institute of Technology |
 
-**Guide :** Harsha T R
+**Guide :**  Harsha T R
 **Mentor 1:** 
 **Mentor 2:**
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Abstract](#-abstract)
 - [Keywords](#-keywords)
