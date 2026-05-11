@@ -547,6 +547,4 @@ We sincerely thank **ERA Foundation**, **ComedKares**, our faculty mentors, our 
 
 ---
 
-<p align="center">
-  Made with ❤️ as part of the AIT Industry Innovation Program
-</p>
+
