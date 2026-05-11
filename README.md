@@ -20,10 +20,9 @@
 
 | Name | USN / Roll No. | Department | Institution |
 |---|---|---|---|
-| Student Name 1 | USN / Roll Number | MCA | Institution Name |
-| Student Name 2 | USN / Roll Number | MCA | Institution Name |
+| H.Kavana | 1DA24MC022 | MCA | Dr Ambedkar Institute of Technology |
 
-**Guide / Mentor:** Faculty Name
+**Guide / Mentor:** 
 
 ---
 
@@ -50,19 +49,19 @@
 
 ---
 
-## 📄 Abstract
+##  Abstract
 
 Urban public transport systems suffer from static scheduling that cannot adapt to fluctuating passenger demand, resulting in poor service quality, resource waste, and low ridership satisfaction. Existing methods either rely on computationally expensive exact optimization models unsuitable for real-time use, or offline heuristics that fail during sudden demand shifts. This paper proposes an AI-driven dynamic bus scheduling framework that integrates machine-learning-based demand forecasting with adaptive dispatch optimization. The framework combines short-term passenger demand prediction using time-series models (Prophet, ARIMA, LSTM) with a dynamic heuristic dispatching algorithm, validated against a Mixed-Integer Linear Programming (MILP) benchmark. Additionally, the impact of prediction noise distributions on demand-responsive fleet optimization is studied. Experimental results demonstrate that the adaptive heuristic achieves over **95% of MILP benchmark utility** with computation times reduced by up to **98%**, while dynamic routing reduces average trip time by at least **23%** compared to static routing. The proposed system addresses a critical gap between theoretical optimization and practical, real-time transit operations, offering a scalable solution for mid-sized urban transit networks.
 
 ---
 
-## 🔑 Keywords
+##  Keywords
 
 `Dynamic Bus Scheduling` `Demand Forecasting` `Reinforcement Learning` `MILP Optimization` `Smart Public Transport` `Heuristic Dispatch` `Deep Q-Network` `Prophet` `Passenger Demand Prediction`
 
 ---
 
-## 1. 📖 Introduction
+## 1.  Introduction
 
 ### 1.1 Background
 
@@ -94,7 +93,7 @@ This study focuses on urban bus networks in mid-sized cities operating fixed rou
 
 ---
 
-## 2. 📚 Literature Review
+## 2.  Literature Review
 
 ### 2.1 Research Paper 1
 
@@ -171,7 +170,7 @@ This study focuses on urban bus networks in mid-sized cities operating fixed rou
 
 ---
 
-## 3. 📊 Comparative Analysis
+## 3.  Comparative Analysis
 
 | Feature | Paper 1 (Peled, 2021) | Paper 2 (Barrera, 2025) | Paper 3 (Ai, 2021) |
 |---|---|---|---|
@@ -201,7 +200,7 @@ Existing methods optimize aggregate metrics (total utility, average waiting time
 
 ---
 
-## 5. ❗ Problem Statement
+## 5.  Problem Statement
 
 > Static and semi-static bus scheduling systems are unable to respond to real-time fluctuations in passenger demand, leading to overcrowding during peak hours, wasteful empty-bus operations during off-peak periods, and poor service reliability — particularly in mid-sized cities with limited infrastructure.
 >
@@ -209,7 +208,7 @@ Existing methods optimize aggregate metrics (total utility, average waiting time
 
 ---
 
-## 6. 💡 Proposed Solution
+## 6.  Proposed Solution
 
 ### 6.1 System Overview
 
@@ -248,7 +247,7 @@ We propose the **AI-Adaptive Transit Scheduling System (AATSS)** — a three-tie
 
 ---
 
-## 7. ⚙️ Methodology
+## 7.  Methodology
 
 ### 7.1 Workflow
 
@@ -302,7 +301,7 @@ Step 7 → Policy Update
 
 ---
 
-## 8. 🖥️ Implementation Details
+## 8.  Implementation Details
 
 ### 8.1 Hardware Requirements
 
@@ -330,7 +329,7 @@ Step 7 → Policy Update
 
 ---
 
-## 9. 🧪 Experimental Setup
+## 9.  Experimental Setup
 
 **Datasets:**
 - Metropolitan Copenhagen smartcard data (Jan 2017 – Dec 2018) — 2.15M trips, 30 OD pairs
@@ -355,7 +354,7 @@ Step 7 → Policy Update
 
 ---
 
-## 10. 📈 Results and Analysis
+## 10.  Results and Analysis
 
 ### 10.1 Experimental Results
 
@@ -384,7 +383,7 @@ Routes with sparse demand consistently underperform across all dynamic methods, 
 
 ---
 
-## 11. 💬 Discussion
+## 11.  Discussion
 
 **Improvements Achieved:** On high-demand routes, service levels increase from ~49% to over 94%. The DRL component eliminates stranding passengers that plague fixed-interval systems during demand surges.
 
@@ -396,7 +395,7 @@ Routes with sparse demand consistently underperform across all dynamic methods, 
 
 ---
 
-## 12. ⚠️ Limitations
+## 12.  Limitations
 
 - Validated on specific city datasets; generalization requires retraining and recalibration per city
 - Assumes bidirectional fixed routes with two terminals; complex hub-and-spoke or circular routes not handled
@@ -406,7 +405,7 @@ Routes with sparse demand consistently underperform across all dynamic methods, 
 
 ---
 
-## 13. 🚀 Future Scope
+## 13.  Future Scope
 
 - **Network-Level Optimization:** Multi-route coordinated fleet allocation using multi-agent reinforcement learning
 - **External Signal Integration:** Real-time weather, traffic incidents, and event calendars into forecasting
@@ -417,7 +416,7 @@ Routes with sparse demand consistently underperform across all dynamic methods, 
 
 ---
 
-## 14. ✅ Conclusion
+## 14.  Conclusion
 
 This paper reviewed three foundational studies on AI-driven dynamic bus scheduling and proposed a unified framework — AATSS — that synthesizes their strengths. Paper 1 demonstrated that prediction noise skewness matters more than magnitude, providing crucial guidance on forecasting requirements. Paper 2 showed that an adaptive heuristic dispatch algorithm can achieve near-MILP performance (>95% utility) at a fraction of computation cost. Paper 3 introduced Deep Reinforcement Learning for minute-by-minute departure control, demonstrating adaptation to sudden demand shifts that defeat all offline methods.
 
@@ -425,7 +424,7 @@ The proposed AATSS framework integrates these contributions into a deployable, t
 
 ---
 
-## 16. 🔬 My Identified Gap (Novelty)
+## 16.  My Identified Gap (Novelty)
 
 ### The Logical Chain
 
@@ -521,7 +520,7 @@ The three-tier design (heuristic → RL fallback → equity floor) is stronger t
 
 ---
 
-## 15. 📎 References
+## 15.  References
 
 [1] I. Peled, K. Lee, Y. Jiang, J. Dauwels, and F. C. Pereira, "On the quality requirements of demand prediction for dynamic public transport," *Communications in Transportation Research*, 2021. arXiv:2008.13443
 
@@ -539,13 +538,13 @@ The three-tier design (heuristic → RL fallback → equity floor) is stronger t
 
 ---
 
-## 📝 Declaration
+##  Declaration
 
 We hereby declare that this research work is original and has been carried out by us under the guidance of the faculty mentor. All references used in this paper have been properly cited.
 
 ---
 
-## 🙏 Acknowledgement
+##  Acknowledgement
 
 We sincerely thank **ERA Foundation**, **ComedKares**, our faculty mentors, our institution, and industry experts for their continuous support and guidance.
 
