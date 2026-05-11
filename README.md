@@ -7,22 +7,19 @@
 <h1 align="center">AI-Driven Dynamic Bus Scheduling</h1>
 <h3 align="center">Integrating Demand Forecasting and Adaptive Optimization for Smart Public Transit</h3>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Domain-Smart%20Transportation-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Method-ML%20%2B%20Heuristic%20%2B%20DRL-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Type-IEEE%20Research%20Paper-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge"/>
-</p>
+
 
 ---
 
-## 👥 Team
+##  Submitted By
 
 | Name | USN / Roll No. | Department | Institution |
 |---|---|---|---|
 | H.Kavana | 1DA24MC022 | MCA | Dr Ambedkar Institute of Technology |
 
-**Guide / Mentor:** 
+**Guide :** Harsha T R
+**Mentor 1:** 
+**Mentor 2:**
 
 ---
 
