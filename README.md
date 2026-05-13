@@ -13,13 +13,21 @@
 
 ##  Submitted By
 
-| Name | USN / Roll No. | Department | Institution |
-|---|---|---|---|
-| H.Kavana | 1DA24MC022 | MCA | Dr Ambedkar Institute of Technology |
+**Name**:H Kavana
 
-**Guide :**  Harsha T R
-**Mentor 1:** 
-**Mentor 2:**
+**USN No**:1DA24MC022
+
+**Department**:MCA
+
+**Institution**:Dr Ambedkar Institute of Technology
+
+##  Guide/Mentor
+
+**Guide:** Harsha T. R.  
+
+**Mentor 1:** Rezwaan  
+
+**Mentor 2:** Deepgagan
 
 ---
 
