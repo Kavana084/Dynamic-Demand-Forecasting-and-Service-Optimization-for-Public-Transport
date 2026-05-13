@@ -31,29 +31,6 @@
 
 ---
 
-##  Table of Contents
-
-- [Abstract](#-abstract)
-- [Keywords](#-keywords)
-- [Introduction](#1--introduction)
-- [Literature Review](#2--literature-review)
-- [Comparative Analysis](#3--comparative-analysis)
-- [Research Gaps](#4--research-gaps-identified)
-- [Problem Statement](#5--problem-statement)
-- [Proposed Solution](#6--proposed-solution)
-- [Methodology](#7--methodology)
-- [Implementation Details](#8--implementation-details)
-- [Experimental Setup](#9--experimental-setup)
-- [Results](#10--results-and-analysis)
-- [Discussion](#11--discussion)
-- [Limitations](#12--limitations)
-- [Future Scope](#13--future-scope)
-- [Conclusion](#14--conclusion)
-- [My Identified Gap — Novelty](#16--my-identified-gap-novelty)
-- [References](#15--references)
-
----
-
 ##  Abstract
 
 Urban public transport systems suffer from static scheduling that cannot adapt to fluctuating passenger demand, resulting in poor service quality, resource waste, and low ridership satisfaction. Existing methods either rely on computationally expensive exact optimization models unsuitable for real-time use, or offline heuristics that fail during sudden demand shifts. This paper proposes an AI-driven dynamic bus scheduling framework that integrates machine-learning-based demand forecasting with adaptive dispatch optimization. The framework combines short-term passenger demand prediction using time-series models (Prophet, ARIMA, LSTM) with a dynamic heuristic dispatching algorithm, validated against a Mixed-Integer Linear Programming (MILP) benchmark. Additionally, the impact of prediction noise distributions on demand-responsive fleet optimization is studied. Experimental results demonstrate that the adaptive heuristic achieves over **95% of MILP benchmark utility** with computation times reduced by up to **98%**, while dynamic routing reduces average trip time by at least **23%** compared to static routing. The proposed system addresses a critical gap between theoretical optimization and practical, real-time transit operations, offering a scalable solution for mid-sized urban transit networks.
@@ -189,7 +166,7 @@ This study focuses on urban bus networks in mid-sized cities operating fixed rou
 
 ---
 
-## 4. 🔍 Research Gaps Identified
+## 4.  Research Gaps Identified
 
 ### Gap 1: No Multi-Route Network-Level Dynamic Dispatching
 
