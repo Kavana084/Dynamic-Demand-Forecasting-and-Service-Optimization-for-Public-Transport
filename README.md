@@ -257,6 +257,7 @@ The proposed system is an AI-based Adaptive Bus Scheduling System for intelligen
 
 ### 7.2 System Architecture
 
+```text
 Passenger & Traffic Data
             ↓
       Data Preprocessing
@@ -265,27 +266,27 @@ Passenger & Traffic Data
  (Passenger Demand Prediction)
             ↓
              DRL
- (Traffic, Weather & Dynamic
-     Condition Analysis)
+(Traffic, Weather & Dynamic
+    Condition Analysis)
             ↓
             MILP
- (Fleet Optimization & Bus
-      Allocation Decision)
+(Fleet Optimization & Bus
+     Allocation Decision)
             ↓
- Navigation & Route Management
+Navigation & Route Management
             ↓
- Bus Scheduling System
+Bus Scheduling System
 (Arrival & Departure Timing)
             ↓
- Intelligent Adaptive Transit System
- 
+Intelligent Adaptive Transit System
+``` 
 
 ### 7.3 Algorithms Used
 
-** LSTM (Long Short-Term Memory) **– Passenger demand prediction
+** LSTM (Long Short-Term Memory) ** – Passenger demand prediction
 ** Deep Reinforcement Learning (DRL/DQN) ** – Dynamic condition analysis and scheduling
 ** MILP (Mixed Integer Linear Programming)** – Fleet optimization and allocation
-** Data Preprocessing Techniques **– Data cleaning and feature preparation.
+** Data Preprocessing Techniques ** – Data cleaning and feature preparation.
 
 ## 8.  Implementation Details
 
