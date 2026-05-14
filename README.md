@@ -31,15 +31,19 @@
 
 ---
 
-##  Abstract
+# Abstract
 
-Urban public transport systems suffer from static scheduling that cannot adapt to fluctuating passenger demand, resulting in poor service quality, resource waste, and low ridership satisfaction. Existing methods either rely on computationally expensive exact optimization models unsuitable for real-time use, or offline heuristics that fail during sudden demand shifts. This paper proposes an AI-driven dynamic bus scheduling framework that integrates machine-learning-based demand forecasting with adaptive dispatch optimization. The framework combines short-term passenger demand prediction using time-series models (Prophet, ARIMA, LSTM) with a dynamic heuristic dispatching algorithm, validated against a Mixed-Integer Linear Programming (MILP) benchmark. Additionally, the impact of prediction noise distributions on demand-responsive fleet optimization is studied. Experimental results demonstrate that the adaptive heuristic achieves over **95% of MILP benchmark utility** with computation times reduced by up to **98%**, while dynamic routing reduces average trip time by at least **23%** compared to static routing. The proposed system addresses a critical gap between theoretical optimization and practical, real-time transit operations, offering a scalable solution for mid-sized urban transit networks.
+Public transportation systems  face challenges such as overcrowding, increased passenger waiting time, inefficient fleet utilization, and inability to adapt to real-time traffic and environmental conditions. Traditional bus scheduling systems mainly rely on fixed timetables and static routing, which cannot efficiently handle dynamic passenger demand fluctuations during peak and non-peak hours. Existing systems also lack intelligent demand prediction and adaptive scheduling capabilities, resulting in operational inefficiencies and poor passenger experience.
+
+To address these limitations, this project proposes an **AI-Driven Dynamic Demand forecasting and Service Optimization** that integrates Artificial Intelligence and optimization techniques for intelligent public transport management. The proposed system uses **Long Short-Term Memory (LSTM)** networks to predict future passenger demand using historical transportation data. **Deep Reinforcement Learning (DRL)** is used to analyze real-time traffic, weather, and environmental conditions for adaptive decision-making, while **Mixed Integer Linear Programming (MILP)** is applied for optimal fleet allocation and scheduling. The system also includes navigation and real-time arrival/departure scheduling modules for efficient route management.
+
+The application is developed as a web-based platform using **ReactJS**, **Python**, and **MySQL**. The proposed system is expected to reduce passenger waiting time, minimize overcrowding, improve fleet utilization, optimize operational cost, and provide efficient real-time transit scheduling. The project contributes toward developing intelligent and adaptive public transportation systems for smart city environments.
 
 ---
 
 ##  Keywords
 
-`Dynamic Bus Scheduling` `Demand Forecasting` `Reinforcement Learning` `MILP Optimization` `Smart Public Transport` `Heuristic Dispatch` `Deep Q-Network` `Prophet` `Passenger Demand Prediction`
+`Artificial Intelligence` `Demand Forecasting` `Deep Reinforcement Learning` `MILP Optimization` `Long Short-Term Memory[LSTM]` `Passenger Demand Prediction` `Dynamic Bus Scheduling` `Route Optimization` `Traffic Analysis` `Fleet Management`
 
 ---
 
@@ -47,32 +51,31 @@ Urban public transport systems suffer from static scheduling that cannot adapt t
 
 ### 1.1 Background
 
-Public transportation forms the backbone of urban mobility, serving millions of daily commuters while reducing traffic congestion and environmental emissions. Traditional transit systems rely on fixed timetables determined months in advance using historical average demand, unable to respond to real-time fluctuations in passenger flow. As smart city technologies mature — including IoT sensors, mobile ticketing, GPS tracking, and big data analytics — the opportunity has emerged to make public transport dynamic and demand-responsive.
+Public transportation systems are essential for urban mobility, but traditional systems mainly rely on fixed schedules and static routing, which often lead to overcrowding, long waiting times, inefficient fleet utilization, and inability to adapt to changing passenger demand and traffic conditions. With the growth of smart city technologies, intelligent transportation systems are becoming necessary for efficient transit management. Recent advancements in Artificial Intelligence and optimization techniques enable dynamic scheduling and real-time decision making. 
 
 ### 1.2 Problem Overview
 
-Static bus schedules create a persistent mismatch between service supply and actual passenger demand. During peak hours, buses are overcrowded and passengers are stranded; during off-peak periods, buses run near-empty, wasting fuel and operating costs. Conventional optimization methods (genetic algorithms, MILP, etc.) are computationally expensive and solved offline — once deployed, they cannot adapt to sudden demand shifts such as festivals, traffic incidents, or weather disruptions.
+Static bus schedules create a persistent mismatch between service supply and actual passenger demand. During peak hours, buses are overcrowded and passengers are left-behind but during off-peak periods, buses run near-empty, wasting fuel and operating costs.Traditional optimization methods are costly, time-consuming, and cannot quickly adapt to sudden changes like traffic, weather, or increased passenger demand.
 
 ### 1.3 Need for the Study
 
-There is an urgent need for a hybrid framework that combines accurate, real-time demand prediction with computationally lightweight dispatch optimization. Such a system must:
-
-- Work within the real operational constraints of transit agencies (limited fleet, fixed routes, depot logistics)
-- Adapt to demand fluctuations in minutes, not hours
-- Be deployable without requiring constant access to expensive MILP solvers
-- Work effectively even when demand prediction is imperfect
+The study is important because Traditional transport systems use fixed schedules that cannot adapt to changing passenger demand.  
+   This causes overcrowding, longer waiting times, and inefficient fleet usage.  
+Manual scheduling methods are not effective for real-time management.Therefore, an intelligent system is needed for demand prediction and adaptive bus scheduling.
 
 ### 1.4 Objectives
 
-- Evaluate and compare machine-learning demand forecasting models (Prophet, ARIMA, LSTM) for short-term passenger flow prediction
-- Design and validate an adaptive heuristic dispatching algorithm that integrates forecasted demand with real-time operational constraints
-- Quantify the impact of prediction noise distribution shapes on demand-responsive fleet optimization performance
-- Propose a Deep Reinforcement Learning (DRL) based timetable optimization approach for real-time, minute-by-minute departure decisions
+## 1.4 Objectives
+
+- To study existing intelligent public transportation and bus scheduling systems
+- To identify limitations in traditional transit scheduling and fleet management approaches
+- To design an AI-driven adaptive transit scheduling and fleet optimization system
+- To predict passenger demand using LSTM and analyze real-time conditions using DRL
+- To provide intelligent navigation, dynamic bus scheduling, and optimized fleet allocation using MILP
 
 ### 1.5 Scope of the Work
 
-This study focuses on urban bus networks in mid-sized cities operating fixed routes between terminal pairs. The framework applies to systems with historical ridership data, discrete time-interval planning (10-minute granularity), and homogeneous bus fleets. It does not address subway/rail systems, multi-modal transfer optimization, or infrastructure-level planning.
-
+The project focuses on developing an AI-based web application for intelligent public transportation management. It includes passenger demand prediction, adaptive bus scheduling, fleet optimization, navigation, and real-time arrival and departure scheduling. The system aims to reduce waiting time, overcrowding, and operational cost using AI and optimization techniques. The project is mainly limited to bus transportation systems and simulated real-time data analysis for smart transit management.
 ---
 
 ## 2.  Literature Review
@@ -85,21 +88,25 @@ This study focuses on urban bus networks in mid-sized cities operating fixed rou
 | **Authors** | Inon Peled, Kelvin Lee, Yu Jiang, Justin Dauwels, Francisco C. Pereira |
 | **Year** | 2021 |
 | **Methodology** | Sensitivity Analysis using simulated noise distributions + MILP Fleet Optimization |
-| **Technologies** | MILP, Stochastic Noise Simulation (Gaussian, Weibull, Exponential, Uniform), MAPE, RMSNE |
-| **Results** | Dynamic routing reduces trip time by ≥23%; best yearly savings ≥ €809,000 |
+| **Technologies** | MILP optimization, Stochastic Noise Simulation (Gaussian, Weibull, Exponential, Uniform), MAPE, RMSNE |
+| **Results** | Dynamic routing reduces trip time by at least 23% and best annual  savings of about €809,000 |
 
-**Summary:** This paper investigates how accurately passenger demand must be predicted for effective demand-responsive public transport. Rather than testing specific models, the authors simulate prediction errors using six noise distribution families across four standard deviation levels, using Copenhagen data (2.15 million trips, 30 OD pairs). Key finding: the **skewness** of prediction noise matters more than its magnitude. Negatively skewed errors produce better optimization outcomes. RMSNE is a better proxy for optimization impact than MAPE.
+**Summary:** 
+- Investigates the effect of prediction accuracy on dynamic public transport systems.
+- Uses 2.15 million Copenhagen transport trips for experiments.
+- Simulates prediction uncertainty using Gaussian, Uniform, Exponential, and Weibull distributions.
+- Applies MILP-based fleet optimization for route planning.
+- Finds that large prediction errors strongly affect system performance.
+- Dynamic routing improves efficiency and reduces travel time.
 
 **Advantages:**
-- Model-agnostic; results apply regardless of which prediction model is used
-- Covers wide range of noise distribution shapes
-- Provides concrete economic valuation via Value of Travel Time Savings
-
+- Uses real-world transportation data.
+- Considers multiple error distributions beyond Gaussian assumptions.
+- Includes economic impact analysis.
 **Limitations:**
-- Only 6 stations and 30 OD pairs — may not generalize to city-scale networks
-- Assumes independent noise across OD pairs
-- Does not propose robust optimization techniques to mitigate errors
-
+- Uses only a small pilot setup (6 stations).
+- Assumes independent prediction errors.
+- Dynamic routing tested only up to 40% of buses.
 ---
 
 ### 2.2 Research Paper 2
