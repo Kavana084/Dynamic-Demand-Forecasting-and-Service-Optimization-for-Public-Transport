@@ -283,10 +283,13 @@ Intelligent Adaptive Transit System
 
 ### 7.3 Algorithms Used
 
-** LSTM (Long Short-Term Memory) ** – Passenger demand prediction
-** Deep Reinforcement Learning (DRL/DQN) ** – Dynamic condition analysis and scheduling
-** MILP (Mixed Integer Linear Programming)** – Fleet optimization and allocation
-** Data Preprocessing Techniques ** – Data cleaning and feature preparation.
+- **LSTM (Long Short-Term Memory)** – Used for passenger demand prediction.  
+
+- **Deep Reinforcement Learning (DRL/DQN)** – Used for dynamic condition analysis and scheduling decisions.  
+
+- **MILP (Mixed Integer Linear Programming)** – Used for fleet optimization and bus allocation.  
+
+- **Data Preprocessing Techniques** – Used for data cleaning and feature preparation.
 
 ## 8.  Implementation Details
 
