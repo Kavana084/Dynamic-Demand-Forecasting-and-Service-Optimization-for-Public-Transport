@@ -25,9 +25,9 @@
 
 **Guide:** Harsha T. R.  
 
-**Mentor 1:** Rezwaan  
+**Mentor 1:** Rizwaan  
 
-**Mentor 2:** Deepgagan
+**Mentor 2:** GaganDeep T
 
 ---
 
