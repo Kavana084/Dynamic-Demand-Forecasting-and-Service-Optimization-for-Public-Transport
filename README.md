@@ -99,10 +99,13 @@ The project focuses on developing an AI-based web application for intelligent pu
 - Dynamic routing improves efficiency and reduces travel time.
 
 **Advantages:**
+
 - Uses real-world transportation data.
 - Considers multiple error distributions beyond Gaussian assumptions.
 - Includes economic impact analysis.
+  
 **Limitations:**
+
 - Uses only a small pilot setup (6 stations).
 - Assumes independent prediction errors.
 - Dynamic routing tested only up to 40% of buses.
@@ -204,6 +207,7 @@ Current models mainly rely on historical passenger demand data and ignore extern
 ### Gap 3: No Equity or Minimum Service Guarantee
 
 Existing optimization approaches prioritize efficiency and cost reduction but do not ensure fair service distribution across all regions, especially low-demand or underserved areas where minimum transport availability is important.
+
 ---
 
 ## 5.  Problem Statement
@@ -217,8 +221,6 @@ Current public transportation systems use fixed schedules that cannot adapt well
 ### 6.1 System Overview
 
 The proposed system is an AI-based Adaptive Bus Scheduling System for intelligent public transportation management. Historical passenger data is analyzed using an LSTM model to predict future passenger demand. The predicted demand is given to a DRL/DQN agent for making real-time scheduling and dispatching decisions. MILP optimization is then used for optimal fleet allocation and route management. The system dynamically adjusts bus schedules to reduce passenger waiting time, improve bus utilization, and lower operational costs.
-
-```
 
 ### 6.2 Key Features
 
@@ -238,13 +240,11 @@ The proposed system is an AI-based Adaptive Bus Scheduling System for intelligen
 - Optimizes fleet allocation efficiently
 - Enhances overall public transport service quality
 
----
 
 ## 7.  Methodology
 
 ### 7.1 Workflow
 
-```
 - Collect passenger travel, traffic, and environmental data.
 - Preprocess and clean the collected data for analysis.
 - Use the LSTM model to predict future passenger demand.
@@ -254,11 +254,9 @@ The proposed system is an AI-based Adaptive Bus Scheduling System for intelligen
 - Generate adaptive arrival and departure schedules dynamically.
 - Deliver an Intelligent Adaptive Transit System with reduced waiting time and operational cost.
 
-```
 
 ### 7.2 System Architecture
 
-```
 Passenger & Traffic Data
             ↓
       Data Preprocessing
@@ -281,16 +279,13 @@ Passenger & Traffic Data
             ↓
  Intelligent Adaptive Transit System
  
-```
 
 ### 7.3 Algorithms Used
 
 ** LSTM (Long Short-Term Memory) **– Passenger demand prediction
 ** Deep Reinforcement Learning (DRL/DQN) ** – Dynamic condition analysis and scheduling
 ** MILP (Mixed Integer Linear Programming)** – Fleet optimization and allocation
-** Data Preprocessing Techniques **– Data cleaning and feature preparation
-
----
+** Data Preprocessing Techniques **– Data cleaning and feature preparation.
 
 ## 8.  Implementation Details
 
@@ -316,8 +311,6 @@ Passenger & Traffic Data
 
 `Python` · `TensorFLow` · `LSTM` · `DRL` · `MILP optimization` · `Google Maps API` · `Numpy` · `Pandas` · `Scikit-learn`
 
----
-
 ## 9.  Experimental Setup
 
 **Datasets:**
@@ -336,7 +329,6 @@ Passenger & Traffic Data
 - Scheduling efficiency
 
 
----
 
 ## 10.  Results and Analysis
 
@@ -357,7 +349,6 @@ Passenger & Traffic Data
 - The integrated approach reduced passenger waiting time and improved resource utilization.
 - Adaptive scheduling performed better than fixed scheduling systems under varying demand conditions.
 
----
 
 ## 11.  Discussion
 
@@ -365,7 +356,6 @@ The proposed system improves public transportation efficiency through intelligen
 
 Challenges include high computational requirements for DRL and optimization models, availability of real-time traffic and passenger datasets, and maintaining model performance under rapidly changing transportation conditions.
 
----
 
 ## 12.  Limitations
 
@@ -373,7 +363,6 @@ Challenges include high computational requirements for DRL and optimization mode
 - High computational cost for DRL and optimization models.
 - Performance may vary with unexpected traffic conditions.
 
----
 
 ## 13.  Future Scope
 
@@ -382,13 +371,11 @@ Challenges include high computational requirements for DRL and optimization mode
 - Mobile application support for passengers and operators.
 - Edge AI optimization for faster real-time processing.
 - Integration with smart city transportation infrastructure.
----
 
 ## 14.  Conclusion
 
 This project addressed the problem of inefficient fixed bus scheduling systems that cannot adapt to changing passenger demand and dynamic traffic conditions. To solve this issue, an intelligent adaptive transit system was proposed by integrating LSTM-based passenger demand prediction, DRL for real-time decision-making, and MILP for fleet optimization. The proposed approach improved scheduling efficiency, optimized bus allocation, and reduced passenger waiting time. Overall, the system contributes toward smarter, cost-effective, and adaptive public transportation for future smart city environments.
 
----
 
 ## 15.  References
 
@@ -406,7 +393,6 @@ This project addressed the problem of inefficient fixed bus scheduling systems t
 
 [7] A. Saltelli, S. Tarantola, F. Campolongo, and M. Ratto, *Sensitivity Analysis in Practice.* Wiley, 2004.
 
----
 
 ##  Declaration
 
