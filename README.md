@@ -383,19 +383,12 @@ This project addressed the problem of inefficient fixed bus scheduling systems t
 
 ## 15.  References
 
-[1] I. Peled, K. Lee, Y. Jiang, J. Dauwels, and F. C. Pereira, "On the quality requirements of demand prediction for dynamic public transport," *Communications in Transportation Research*, 2021. arXiv:2008.13443
+[1] I. Peled, K. Lee, Y. Jiang, J. Dauwels, and F. C. Pereira, "On the quality requirements of demand prediction for dynamic public transport," *Communications in Transportation Research*, 2021. arXiv:2008.13443. https://arxiv.org/abs/2008.13443
 
 [2] J. E. Barrera Hernandez, L. E. Tarazona Torres, A. Tabares, and D. Álvarez-Martínez, "Optimization of bus dispatching in public transportation through a heuristic approach based on passenger demand forecasting," *Smart Cities*, vol. 8, no. 3, p. 87, 2025. https://doi.org/10.3390/smartcities8030087
 
 [3] G. Ai, X. Zuo, G. Chen, and B. Wu, "Deep reinforcement learning based dynamic optimization of bus timetable," *arXiv preprint arXiv:2107.07066*, 2021.
-
-[4] S. J. Taylor and B. Letham, "Forecasting at scale," *The American Statistician*, vol. 72, no. 1, pp. 37–45, 2018.
-
-[5] V. Mnih et al., "Human-level control through deep reinforcement learning," *Nature*, vol. 518, pp. 529–533, 2015.
-
-[6] K. Gkiotsalitis and E. C. van Berkum, "An exact method for the bus dispatching problem in rolling horizons," *Transportation Research Part C*, vol. 110, pp. 143–165, 2020.
-
-[7] A. Saltelli, S. Tarantola, F. Campolongo, and M. Ratto, *Sensitivity Analysis in Practice.* Wiley, 2004.
+arXiv:2107.07066 – Deep Reinforcement Learning based Dynamic Optimization of Bus Timetable
 
 
 ##  Declaration
