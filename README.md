@@ -388,7 +388,7 @@ This project addressed the problem of inefficient fixed bus scheduling systems t
 [2] J. E. Barrera Hernandez, L. E. Tarazona Torres, A. Tabares, and D. Álvarez-Martínez, "Optimization of bus dispatching in public transportation through a heuristic approach based on passenger demand forecasting," *Smart Cities*, vol. 8, no. 3, p. 87, 2025. https://doi.org/10.3390/smartcities8030087
 
 [3] G. Ai, X. Zuo, G. Chen, and B. Wu, "Deep reinforcement learning based dynamic optimization of bus timetable," *arXiv preprint arXiv:2107.07066*, 2021.
-arXiv:2107.07066 – Deep Reinforcement Learning based Dynamic Optimization of Bus Timetable
+https://arxiv.org/abs/2107.07066
 
 
 ##  Declaration
