@@ -35,7 +35,7 @@
 
 Public transportation systems  face challenges such as overcrowding, increased passenger waiting time, inefficient fleet utilization, and inability to adapt to real-time traffic and environmental conditions. Traditional bus scheduling systems mainly rely on fixed timetables and static routing, which cannot efficiently handle dynamic passenger demand fluctuations during peak and non-peak hours. Existing systems also lack intelligent demand prediction and adaptive scheduling capabilities, resulting in operational inefficiencies and poor passenger experience.
 
-To address these limitations, this project proposes an **AI-Driven Dynamic Demand forecasting and Service Optimization** that integrates Artificial Intelligence and optimization techniques for intelligent public transport management. The proposed system uses **Long Short-Term Memory (LSTM)** networks to predict future passenger demand using historical transportation data. **Deep Reinforcement Learning (DRL)** is used to analyze real-time traffic, weather, and environmental conditions for adaptive decision-making, while **Mixed Integer Linear Programming (MILP)** is applied for optimal fleet allocation and scheduling. The system also includes navigation and real-time arrival/departure scheduling modules for efficient route management.
+To address these limitations, this project proposes an **AI-Driven Dynamic Demand forecasting and Service Optimization** that integrates Artificial Intelligence and optimization techniques for intelligent public transport management. The proposed system uses **Long Short-Term Memory (LSTM)** networks to predict future passenger demand using historical transportation data[2]. **Deep Reinforcement Learning (DRL)** is used to analyze real-time traffic, weather, and environmental conditions for adaptive decision-making[3], while **Mixed Integer Linear Programming (MILP)** is applied for optimal fleet allocation and scheduling[1][2]. The system also includes navigation and real-time arrival/departure scheduling modules for efficient route management.
 
 The application is developed as a web-based platform using **ReactJS**, **Python**, and **MySQL**. The proposed system is expected to reduce passenger waiting time, minimize overcrowding, improve fleet utilization, optimize operational cost, and provide efficient real-time transit scheduling. The project contributes toward developing intelligent and adaptive public transportation systems for smart city environments.
 
@@ -51,11 +51,11 @@ The application is developed as a web-based platform using **ReactJS**, **Python
 
 ### 1.1 Background
 
-Public transportation systems are essential for urban mobility, but traditional systems mainly rely on fixed schedules and static routing, which often lead to overcrowding, long waiting times, inefficient fleet utilization, and inability to adapt to changing passenger demand and traffic conditions. With the growth of smart city technologies, intelligent transportation systems are becoming necessary for efficient transit management. Recent advancements in Artificial Intelligence and optimization techniques enable dynamic scheduling and real-time decision making. 
+Public transportation systems are essential for urban mobility, but traditional systems mainly rely on fixed schedules[3] and static routing, which often lead to overcrowding, long waiting times[2][3], inefficient fleet utilization, and inability to adapt to changing passenger demand and traffic conditions. With the growth of smart city technologies, intelligent transportation systems are becoming necessary for efficient transit management. Recent advancements in Artificial Intelligence and optimization techniques enable dynamic scheduling and real-time decision making. 
 
 ### 1.2 Problem Overview
 
-Static bus schedules create a persistent mismatch between service supply and actual passenger demand. During peak hours, buses are overcrowded and passengers are left-behind but during off-peak periods, buses run near-empty, wasting fuel and operating costs.Traditional optimization methods are costly, time-consuming, and cannot quickly adapt to sudden changes like traffic, weather, or increased passenger demand.
+Static bus schedules create a persistent mismatch between service supply and actual passenger demand[3]. During peak hours, buses are overcrowded and passengers are left-behind[2][3] but during off-peak periods, buses run near-empty, wasting fuel and operating costs.Traditional optimization methods are costly, time-consuming, and cannot quickly adapt to sudden changes like traffic, weather, or increased passenger demand.
 
 ### 1.3 Need for the Study
 
@@ -200,7 +200,7 @@ The project focuses on developing an AI-based web application for intelligent pu
 
 Most existing studies optimize scheduling for individual bus routes only. They do not coordinate dispatching decisions across multiple interconnected routes within a city-wide transportation network.
 
-### Gap 2: No Integration of Real-Time External Signals
+### Gap 2: No Integration of Real-Time External Signals[3]
 
 Current models mainly rely on historical passenger demand data and ignore external real-time factors such as traffic congestion, weather conditions, accidents, public events, and road closures that strongly affect transport operations.
 
@@ -220,7 +220,7 @@ Current public transportation systems use fixed schedules that cannot adapt well
 
 ### 6.1 System Overview
 
-The proposed system is an AI-based Adaptive Bus Scheduling System for intelligent public transportation management. Historical passenger data is analyzed using an LSTM model to predict future passenger demand. The predicted demand is given to a DRL/DQN agent for making real-time scheduling and dispatching decisions. MILP optimization is then used for optimal fleet allocation and route management. The system dynamically adjusts bus schedules to reduce passenger waiting time, improve bus utilization, and lower operational costs.
+The proposed system is an AI-based Adaptive Bus Scheduling System for intelligent public transportation management. Historical passenger data is analyzed using an LSTM model to predict future passenger demand[2]. The predicted demand is given to a DRL/DQN[3] agent for making real-time scheduling and dispatching decisions. MILP optimization is then used for optimal fleet allocation and route management[1][2]. The system dynamically adjusts bus schedules to reduce passenger waiting time, improve bus utilization, and lower operational costs.
 
 ### 6.2 Key Features
 
@@ -348,8 +348,8 @@ Intelligent Adaptive Transit System
 ### 10.2 Key Observations
 
 - LSTM successfully identified passenger demand patterns and peak-hour traffic trends.
-- DRL dynamically adjusted scheduling decisions based on changing traffic and environmental conditions.
-- MILP improved fleet allocation and reduced unnecessary bus usage.
+- DRL dynamically adjusted scheduling decisions based on changing traffic and environmental conditions.[3]
+- MILP improved fleet allocation and reduced unnecessary bus usage.[2]
 - The integrated approach reduced passenger waiting time and improved resource utilization.
 - Adaptive scheduling performed better than fixed scheduling systems under varying demand conditions.
 
