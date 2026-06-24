@@ -35,7 +35,7 @@
 
 Public transportation systems  face challenges such as overcrowding, increased passenger waiting time, inefficient fleet utilization, and inability to adapt to real-time traffic and environmental conditions. Traditional bus scheduling systems mainly rely on fixed timetables and static routing, which cannot efficiently handle dynamic passenger demand fluctuations during peak and non-peak hours. Existing systems also lack intelligent demand prediction and adaptive scheduling capabilities, resulting in operational inefficiencies and poor passenger experience.
 
-To address these limitations, this project proposes an **AI-Driven Dynamic Demand forecasting and Service Optimization** that integrates Artificial Intelligence and optimization techniques for intelligent public transport management. The proposed system uses **Long Short-Term Memory (LSTM)** networks to predict future passenger demand using historical transportation data[2]. **Deep Reinforcement Learning (DRL)** is used to analyze real-time traffic, weather, and environmental conditions for adaptive decision-making[3], while **Mixed Integer Linear Programming (MILP)** is applied for optimal fleet allocation and scheduling[1][2]. The system also includes navigation and real-time arrival/departure scheduling modules for efficient route management.
+To address these limitations, this project proposes an **AI-Driven Dynamic Demand forecasting and Service Optimization** that integrates Artificial Intelligence and optimization techniques for intelligent public transport management. The proposed system uses **CatBoost**  to predict future passenger demand using historical transportation data[2]. **Deep Reinforcement Learning (DRL)** is used to analyze real-time traffic, weather, and environmental conditions for adaptive decision-making[3], while **Mixed Integer Linear Programming (MILP)** is applied for optimal fleet allocation and scheduling[1][2]. The system also includes navigation and real-time arrival/departure scheduling modules for efficient route management.
 
 The application is developed as a web-based platform using **ReactJS**, **Python**, and **MySQL**. The proposed system is expected to reduce passenger waiting time, minimize overcrowding, improve fleet utilization, optimize operational cost, and provide efficient real-time transit scheduling. The project contributes toward developing intelligent and adaptive public transportation systems for smart city environments.
 
@@ -43,7 +43,7 @@ The application is developed as a web-based platform using **ReactJS**, **Python
 
 ##  Keywords
 
-`Artificial Intelligence` `Demand Forecasting` `Deep Reinforcement Learning` `MILP Optimization` `Long Short-Term Memory[LSTM]` `Passenger Demand Prediction` `Dynamic Bus Scheduling` `Route Optimization` `Traffic Analysis` `Fleet Management`
+`Artificial Intelligence` `Demand Forecasting` `Deep Reinforcement Learning` `MILP Optimization` `CatBoost` `Passenger Demand Prediction` `Dynamic Bus Scheduling` `Route Optimization` `Traffic Analysis` `Fleet Management`
 
 ---
 
@@ -68,7 +68,7 @@ Manual scheduling methods are not effective for real-time management.Therefore, 
 - To study existing intelligent public transportation and bus scheduling systems
 - To identify limitations in traditional transit scheduling and fleet management approaches
 - To design an AI-driven adaptive transit scheduling and fleet optimization system
-- To predict passenger demand using LSTM and analyze real-time conditions using DRL
+- To predict passenger demand using CatBoost and analyze real-time conditions using DRL
 - To provide intelligent navigation, dynamic bus scheduling, and optimized fleet allocation using MILP
 
 ### 1.5 Scope of the Work
@@ -119,7 +119,7 @@ The project focuses on developing an AI-based web application for intelligent pu
 | **Authors** | Barrera Hernandez, Tarazona Torres, Tabares, Álvarez-Martínez |
 | **Year** | 2025 |
 | **Methodology** | Demand forecasting + Adaptive Heuristic Dispatch + MILP optimization |
-| **Technologies** | Prophet, ARIMA, LSTM, MILP , Python 3.11, heuristic algorithms |
+| **Technologies** | Prophet, ARIMA,MILP , Python 3.11, heuristic algorithms |
 | **Results** | Heuristic achieves 95%+ of MILP utility with 98% lower computation time |
 
 **Summary:** 
@@ -220,11 +220,11 @@ Current public transportation systems use fixed schedules that cannot adapt well
 
 ### 6.1 System Overview
 
-The proposed system is an AI-based Adaptive Bus Scheduling System for intelligent public transportation management. Historical passenger data is analyzed using an LSTM model to predict future passenger demand[2]. The predicted demand is given to a DRL/DQN[3] agent for making real-time scheduling and dispatching decisions. MILP optimization is then used for optimal fleet allocation and route management[1][2]. The system dynamically adjusts bus schedules to reduce passenger waiting time, improve bus utilization, and lower operational costs.
+The proposed system is an AI-based Adaptive Bus Scheduling System for intelligent public transportation management. Historical passenger data is analyzed using an CatBoost model to predict future passenger demand[2]. The predicted demand is given to a DRL/DQN[3] agent for making real-time scheduling and dispatching decisions. MILP optimization is then used for optimal fleet allocation and route management[1][2]. The system dynamically adjusts bus schedules to reduce passenger waiting time, improve bus utilization, and lower operational costs.
 
 ### 6.2 Key Features
 
-- LSTM-based passenger demand forecasting
+- CatBoost-based passenger demand forecasting
 - DRL/DQN real-time bus scheduling
 - MILP fleet optimization
 - Adaptive dynamic dispatching
@@ -247,7 +247,7 @@ The proposed system is an AI-based Adaptive Bus Scheduling System for intelligen
 
 - Collect passenger travel, traffic, and environmental data.
 - Preprocess and clean the collected data for analysis.
-- Use the LSTM model to predict future passenger demand.
+- Use the CatBoost model to predict future passenger demand.
 - Apply DRL to analyze traffic, weather, and dynamic transport conditions.
 - Use MILP optimization for fleet allocation and bus assignment decisions.
 - Perform navigation and route management for optimized routing.
@@ -262,7 +262,7 @@ Passenger & Traffic Data
             ↓
       Data Preprocessing
             ↓
-            LSTM
+         CatBoost
  (Passenger Demand Prediction)
             ↓
              DRL
@@ -283,7 +283,7 @@ Intelligent Adaptive Transit System
 
 ### 7.3 Algorithms Used
 
-- **LSTM (Long Short-Term Memory)** – Used for passenger demand prediction.  
+- **CatBoost** – Used for passenger demand prediction.  
 
 - **Deep Reinforcement Learning (DRL/DQN)** – Used for dynamic condition analysis and scheduling decisions.  
 
@@ -313,7 +313,7 @@ Intelligent Adaptive Transit System
 
 ### 8.3 Tools and Technologies
 
-`Python` · `TensorFLow` · `LSTM` · `DRL` · `MILP optimization` · `Google Maps API` · `Numpy` · `Pandas` · `Scikit-learn`
+`Python` · `TensorFLow` · `CatBoost` · `DRL` · `MILP optimization` · `Leaflet` · `Numpy` · `Pandas` · `Scikit-learn`
 
 ## 9.  Experimental Setup
 
@@ -321,7 +321,7 @@ Intelligent Adaptive Transit System
 - Passenger travel data, traffic data, weather data, and route information.
 
 **Training:**
-- LSTM trained for demand prediction
+- CatBoost trained for demand prediction
 - DRL/DQN trained for scheduling decisions
 - MILP used for fleet optimization
 
@@ -347,7 +347,7 @@ Intelligent Adaptive Transit System
 
 ### 10.2 Key Observations
 
-- LSTM successfully identified passenger demand patterns and peak-hour traffic trends.
+- CatBoost successfully identified passenger demand patterns and peak-hour traffic trends.
 - DRL dynamically adjusted scheduling decisions based on changing traffic and environmental conditions.[3]
 - MILP improved fleet allocation and reduced unnecessary bus usage.[2]
 - The integrated approach reduced passenger waiting time and improved resource utilization.
@@ -356,7 +356,7 @@ Intelligent Adaptive Transit System
 
 ## 11.  Discussion
 
-The proposed system improves public transportation efficiency through intelligent demand prediction, adaptive scheduling, and optimized fleet allocation. The integration of LSTM, DRL, and MILP enables real-time decision-making and reduces passenger waiting time while improving resource utilization. Dynamic scheduling and route optimization make the system more suitable for smart transportation environments.
+The proposed system improves public transportation efficiency through intelligent demand prediction, adaptive scheduling, and optimized fleet allocation. The integration of CatBoost, DRL, and MILP enables real-time decision-making and reduces passenger waiting time while improving resource utilization. Dynamic scheduling and route optimization make the system more suitable for smart transportation environments.
 
 Challenges include high computational requirements for DRL and optimization models, availability of real-time traffic and passenger datasets, and maintaining model performance under rapidly changing transportation conditions.
 
