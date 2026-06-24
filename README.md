@@ -50,11 +50,11 @@ Ai et al. (2021) developed a Deep Reinforcement Learning-based system for dynami
 
 ---
 
-# 3 Problem Statement
+# 3.Problem Statement
 
  Current public transportation systems use fixed schedules that cannot adapt well to changing passenger demand and traffic conditions. Existing optimization methods often focus on single routes and require high computational resources. Most systems also ignore real-time external factors like traffic, weather, and special events. Therefore, an intelligent real-time dynamic bus dispatching system is needed to improve efficiency, reduce waiting time, and ensure fair service coverage.
 
-# 4 Objectives
+# 4.Objectives
 
 - To study existing intelligent public transportation and bus scheduling systems
 - To identify limitations in traditional transit scheduling and fleet management approaches
@@ -66,7 +66,7 @@ Ai et al. (2021) developed a Deep Reinforcement Learning-based system for dynami
 
 # 5. Methodology
 
-## 7.1 Demand Forecasting
+## 5.1 Demand Forecasting
 
 Historical passenger travel data, traffic conditions, weather information, and route details are collected and preprocessed to create a high-quality dataset. The CatBoost machine learning model is trained using these features to predict future passenger demand across different routes and time intervals. The forecasting model identifies travel patterns, peak-hour congestion, and seasonal variations to support intelligent scheduling decisions.
 
@@ -117,14 +117,14 @@ MILP optimization enhanced fleet utilization by assigning buses more efficiently
 - Bus utilization and service reliability improved.
 - The integrated system outperformed conventional fixed scheduling methods.
 
-## 8.  Discussion
+# 8.  Discussion
 
 The proposed system improves public transportation efficiency through intelligent demand prediction, adaptive scheduling, and optimized fleet allocation. The integration of CatBoost, DRL, and MILP enables real-time decision-making and reduces passenger waiting time while improving resource utilization. Dynamic scheduling and route optimization make the system more suitable for smart transportation environments.
 
 Challenges include high computational requirements for DRL and optimization models, availability of real-time traffic and passenger datasets, and maintaining model performance under rapidly changing transportation conditions.
 
 
-## 9.  Future Scope
+# 9.  Future Scope
 
 - Cloud deployment for large-scale real-time operation.
 - IoT integration for live vehicle and traffic monitoring.
@@ -132,12 +132,12 @@ Challenges include high computational requirements for DRL and optimization mode
 - Edge AI optimization for faster real-time processing.
 - Integration with smart city transportation infrastructure.
 
-## 10.  Conclusion
+# 10.  Conclusion
 
 This project addressed the problem of inefficient fixed bus scheduling systems that cannot adapt to changing passenger demand and dynamic traffic conditions. To solve this issue, an intelligent adaptive transit system was proposed by integrating CatBoost-based passenger demand prediction, DRL for real-time decision-making, and MILP for fleet optimization. The proposed approach improved scheduling efficiency, optimized bus allocation, and reduced passenger waiting time. Overall, the system contributes toward smarter, cost-effective, and adaptive public transportation for future smart city environments.
 
 
-## 11.  References
+# 11.  References
 
 [1] I. Peled, K. Lee, Y. Jiang, J. Dauwels, and F. C. Pereira, "On the quality requirements of demand prediction for dynamic public transport," *Communications in Transportation Research*, 2021. arXiv:2008.13443. https://arxiv.org/abs/2008.13443
 
