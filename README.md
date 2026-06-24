@@ -47,7 +47,9 @@ Barrera Hernandez et al. (2025) proposed a demand-driven bus dispatching framewo
 ## 2.3 Research Paper 3
 
 Ai et al. (2021) developed a Deep Reinforcement Learning-based system for dynamic bus timetable optimization using Deep Q-Networks (DQN). The model adjusted bus departure intervals in real time according to passenger demand and operational conditions. Experiments conducted on smart-card data from Xiamen, China, reduced passenger waiting time by 17% and bus departures by 8%. The study proved that AI-based adaptive scheduling can significantly improve public transport efficiency and service quality.
+
 ---
+
 # 3 Problem Statement
 
  Current public transportation systems use fixed schedules that cannot adapt well to changing passenger demand and traffic conditions. Existing optimization methods often focus on single routes and require high computational resources. Most systems also ignore real-time external factors like traffic, weather, and special events. Therefore, an intelligent real-time dynamic bus dispatching system is needed to improve efficiency, reduce waiting time, and ensure fair service coverage.
