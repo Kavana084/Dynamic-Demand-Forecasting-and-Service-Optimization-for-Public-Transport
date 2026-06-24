@@ -378,7 +378,7 @@ Challenges include high computational requirements for DRL and optimization mode
 
 ## 14.  Conclusion
 
-This project addressed the problem of inefficient fixed bus scheduling systems that cannot adapt to changing passenger demand and dynamic traffic conditions. To solve this issue, an intelligent adaptive transit system was proposed by integrating LSTM-based passenger demand prediction, DRL for real-time decision-making, and MILP for fleet optimization. The proposed approach improved scheduling efficiency, optimized bus allocation, and reduced passenger waiting time. Overall, the system contributes toward smarter, cost-effective, and adaptive public transportation for future smart city environments.
+This project addressed the problem of inefficient fixed bus scheduling systems that cannot adapt to changing passenger demand and dynamic traffic conditions. To solve this issue, an intelligent adaptive transit system was proposed by integrating CatBoost-based passenger demand prediction, DRL for real-time decision-making, and MILP for fleet optimization. The proposed approach improved scheduling efficiency, optimized bus allocation, and reduced passenger waiting time. Overall, the system contributes toward smarter, cost-effective, and adaptive public transportation for future smart city environments.
 
 
 ## 15.  References
