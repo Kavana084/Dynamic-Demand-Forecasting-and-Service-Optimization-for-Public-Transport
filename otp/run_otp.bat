@@ -1,0 +1,3 @@
+@echo off
+echo Starting OpenTripPlanner on port 8080...
+java -Xmx8G -jar otp.jar --load ./ --port 8080

@@ -1,0 +1,1762 @@
+{
+  "trip.js": [
+    {
+      "line_num": 3,
+      "content": "const CACHE_DURATION_MS = 5 * 60 * 1000; // 5 minutes"
+    }
+  ],
+  "AIRecommendation.jsx": [
+    {
+      "line_num": 4,
+      "content": "recommendation,"
+    },
+    {
+      "line_num": 9,
+      "content": "if (!recommendation) return Lightbulb;"
+    },
+    {
+      "line_num": 11,
+      "content": "const lowerRec = recommendation.toLowerCase();"
+    },
+    {
+      "line_num": 24,
+      "content": "if (!recommendation) return 'blue';"
+    },
+    {
+      "line_num": 26,
+      "content": "const lowerRec = recommendation.toLowerCase();"
+    },
+    {
+      "line_num": 47,
+      "content": "if (!recommendation) {"
+    },
+    {
+      "line_num": 56,
+      "content": "<p className=\"text-xs text-slate-400\">No recommendation available</p>"
+    },
+    {
+      "line_num": 86,
+      "content": "{recommendation}"
+    }
+  ],
+  "AITransitIntelligence.jsx": [
+    {
+      "line_num": 71,
+      "content": "<p className=\"text-xs text-indigo-600 font-semibold uppercase\">Forecast Model</p>"
+    }
+  ],
+  "AITravelInsights.jsx": [
+    {
+      "line_num": 9,
+      "content": "weather,"
+    },
+    {
+      "line_num": 10,
+      "content": "traffic"
+    },
+    {
+      "line_num": 22,
+      "content": "if (traffic?.toLowerCase().includes('heavy') || weather?.toLowerCase().includes('rain') || weather?.toLowerCase().includes('storm')) {"
+    },
+    {
+      "line_num": 25,
+      "content": "if (traffic?.toLowerCase().includes('high')) {"
+    },
+    {
+      "line_num": 37,
+      "content": "if (conf >= 0.80) return 85;"
+    },
+    {
+      "line_num": 51,
+      "content": "const crowdLevel = getCrowdLevel();"
+    },
+    {
+      "line_num": 59,
+      "content": "if (crowdLevel === 'Very Crowded') {"
+    },
+    {
+      "line_num": 60,
+      "content": "return 'Bus is likely to be crowded. Consider waiting for the next service.';"
+    },
+    {
+      "line_num": 62,
+      "content": "if (crowdLevel === 'Low' && delayRisk === 'Low') {"
+    },
+    {
+      "line_num": 71,
+      "content": "const crowdLevel = getCrowdLevel();"
+    },
+    {
+      "line_num": 77,
+      "content": "const crowdColor = {"
+    },
+    {
+      "line_num": 78,
+      "content": "'Low': 'text-emerald-600 bg-emerald-50 border-emerald-200',"
+    },
+    {
+      "line_num": 79,
+      "content": "'Moderate': 'text-blue-600 bg-blue-50 border-blue-200',"
+    },
+    {
+      "line_num": 80,
+      "content": "'High': 'text-amber-600 bg-amber-50 border-amber-200',"
+    },
+    {
+      "line_num": 81,
+      "content": "'Very Crowded': 'text-red-600 bg-red-50 border-red-200',"
+    },
+    {
+      "line_num": 82,
+      "content": "}[crowdLevel] || 'text-blue-600 bg-blue-50 border-blue-200';"
+    },
+    {
+      "line_num": 85,
+      "content": "'Low': 'text-emerald-600 bg-emerald-50 border-emerald-200',"
+    },
+    {
+      "line_num": 86,
+      "content": "'Medium': 'text-amber-600 bg-amber-50 border-amber-200',"
+    },
+    {
+      "line_num": 87,
+      "content": "'High': 'text-red-600 bg-red-50 border-red-200',"
+    },
+    {
+      "line_num": 88,
+      "content": "}[delayRisk] || 'text-emerald-600 bg-emerald-50 border-emerald-200';"
+    },
+    {
+      "line_num": 105,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Best time to travel</span>"
+    },
+    {
+      "line_num": 114,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Crowd Level</span>"
+    },
+    {
+      "line_num": 116,
+      "content": "<span className={`text-sm font-bold px-2 py-1 rounded-lg border ${crowdColor}`}>"
+    },
+    {
+      "line_num": 117,
+      "content": "{crowdLevel}"
+    },
+    {
+      "line_num": 125,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Delay Risk</span>"
+    },
+    {
+      "line_num": 136,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Route Reliability</span>"
+    }
+  ],
+  "ErrorBoundary.jsx": [
+    {
+      "line_num": 31,
+      "content": "className=\"rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-red-700\""
+    }
+  ],
+  "FleetOptimization.jsx": [
+    {
+      "line_num": 25,
+      "content": ": 'bg-slate-100 text-slate-600 border border-slate-200'"
+    },
+    {
+      "line_num": 52,
+      "content": "<p className=\"text-xs text-indigo-600 font-semibold uppercase\">Recommended</p>"
+    },
+    {
+      "line_num": 96,
+      "content": "<p className=\"text-xs text-indigo-600 font-semibold uppercase\">Optimized Freq</p>"
+    },
+    {
+      "line_num": 16,
+      "content": "utilization: '85%',"
+    },
+    {
+      "line_num": 20,
+      "content": "{ route: 'Route 88', allocated: 15, demand: 600, status: 'Under-served' }"
+    },
+    {
+      "line_num": 99,
+      "content": "Run the optimizer to view route-wise bus distribution recommendations."
+    }
+  ],
+  "FloatingAssistant.jsx": [
+    {
+      "line_num": 31,
+      "content": "style={{ width: '60px', height: '60px' }}"
+    }
+  ],
+  "JourneyTimeline.jsx": [
+    {
+      "line_num": 14,
+      "content": "const walkArrival = new Date(now.getTime() + walkingTimeMinutes * 60000);"
+    },
+    {
+      "line_num": 15,
+      "content": "const busArrival = new Date(walkArrival.getTime() + etaMinutes * 60000);"
+    },
+    {
+      "line_num": 35,
+      "content": "<Footprints className=\"w-4 h-4 text-emerald-600\" />"
+    },
+    {
+      "line_num": 43,
+      "content": "<span className=\"text-xs text-slate-600\">Arrive by</span>"
+    },
+    {
+      "line_num": 53,
+      "content": "<Bus className=\"w-4 h-4 text-blue-600\" />"
+    },
+    {
+      "line_num": 61,
+      "content": "<span className=\"text-xs text-slate-600\">Travel time</span>"
+    },
+    {
+      "line_num": 72,
+      "content": "<ArrowRight className=\"w-4 h-4 text-amber-600\" />"
+    },
+    {
+      "line_num": 80,
+      "content": "<span className=\"text-xs text-slate-600\">Change at</span>"
+    },
+    {
+      "line_num": 91,
+      "content": "<MapPin className=\"w-4 h-4 text-indigo-600\" />"
+    },
+    {
+      "line_num": 98,
+      "content": "<span className=\"text-xs text-slate-600\">ETA</span>"
+    },
+    {
+      "line_num": 108,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Total Journey Time</span>"
+    }
+  ],
+  "NextBus.jsx": [
+    {
+      "line_num": 9,
+      "content": "occupancyPercent"
+    },
+    {
+      "line_num": 17,
+      "content": "if (!occupancyPercent) return 'Moderate';"
+    },
+    {
+      "line_num": 18,
+      "content": "if (occupancyPercent <= 30) return 'Low';"
+    },
+    {
+      "line_num": 19,
+      "content": "if (occupancyPercent <= 60) return 'Moderate';"
+    },
+    {
+      "line_num": 20,
+      "content": "if (occupancyPercent <= 85) return 'High';"
+    },
+    {
+      "line_num": 25,
+      "content": "if (!occupancyPercent) return 'text-blue-600 bg-blue-50 border-blue-200';"
+    },
+    {
+      "line_num": 26,
+      "content": "if (occupancyPercent <= 30) return 'text-emerald-600 bg-emerald-50 border-emerald-200';"
+    },
+    {
+      "line_num": 27,
+      "content": "if (occupancyPercent <= 60) return 'text-blue-600 bg-blue-50 border-blue-200';"
+    },
+    {
+      "line_num": 28,
+      "content": "if (occupancyPercent <= 85) return 'text-amber-600 bg-amber-50 border-amber-200';"
+    },
+    {
+      "line_num": 29,
+      "content": "return 'text-red-600 bg-red-50 border-red-200';"
+    },
+    {
+      "line_num": 32,
+      "content": "const occupancyLevel = getOccupancyLevel();"
+    },
+    {
+      "line_num": 33,
+      "content": "const occupancyColor = getOccupancyColor();"
+    },
+    {
+      "line_num": 36,
+      "content": "<div className=\"bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-5 shadow-lg text-white\">"
+    },
+    {
+      "line_num": 75,
+      "content": "<span className={`font-semibold px-2 py-0.5 rounded-lg text-xs border ${occupancyColor}`}>"
+    },
+    {
+      "line_num": 76,
+      "content": "{occupancyLevel}"
+    }
+  ],
+  "RouteAnalytics.jsx": [
+    {
+      "line_num": 46,
+      "content": "const traffic = wsData?.traffic ?? result?.context?.traffic ?? 'Medium';"
+    },
+    {
+      "line_num": 47,
+      "content": "const trafficLower = traffic.toLowerCase();"
+    },
+    {
+      "line_num": 48,
+      "content": "const rawOccupancy = wsData?.occupancy_percent ?? result?.occupancy_percent ?? 0;"
+    },
+    {
+      "line_num": 49,
+      "content": "const occupancy = Math.max(0, Math.min(100, rawOccupancy));"
+    },
+    {
+      "line_num": 51,
+      "content": "console.warn(`[Analytics Warning] Occupancy out of bounds: ${rawOccupancy}. Clamped to ${occupancy}.`);"
+    },
+    {
+      "line_num": 61,
+      "content": "if (trafficLower === 'medium') score -= 10;"
+    },
+    {
+      "line_num": 62,
+      "content": "if (trafficLower === 'high' || trafficLower === 'heavy') score -= 25;"
+    },
+    {
+      "line_num": 65,
+      "content": "if (occupancy > 50 && occupancy <= 80) score -= 5;"
+    },
+    {
+      "line_num": 66,
+      "content": "if (occupancy > 80) score -= 15;"
+    },
+    {
+      "line_num": 81,
+      "content": "}, [trafficLower, occupancy, transferCount, initialEta, currentEta]);"
+    },
+    {
+      "line_num": 86,
+      "content": "if (healthScore >= 60) return { text: 'Moderate', color: 'orange' };"
+    },
+    {
+      "line_num": 114,
+      "content": "if (trafficLower === 'low') return { level: 'Low', color: 'green' };"
+    },
+    {
+      "line_num": 115,
+      "content": "if (trafficLower === 'medium') return { level: 'Medium', color: 'orange' };"
+    },
+    {
+      "line_num": 119,
+      "content": "if (trafficLower === 'medium' || trafficLower === 'high' || trafficLower === 'heavy') {"
+    },
+    {
+      "line_num": 123,
+      "content": "}, [transferCount, trafficLower]);"
+    },
+    {
+      "line_num": 128,
+      "content": "const demandLoad = occupancy;"
+    },
+    {
+      "line_num": 129,
+      "content": "const trafficPressure = trafficLower === 'high' || trafficLower === 'heavy' ? 90 : trafficLower === 'medium' ? 60 : 20;"
+    },
+    {
+      "line_num": 142,
+      "content": "distance: dist,"
+    },
+    {
+      "line_num": 143,
+      "content": "trafficImpact: traffic"
+    },
+    {
+      "line_num": 147,
+      "content": "}, [resolvedIndex, routePath, traffic]);"
+    },
+    {
+      "line_num": 158,
+      "content": "if (occupancy < 50) {"
+    },
+    {
+      "line_num": 161,
+      "content": "if (trafficLower === 'high' || trafficLower === 'heavy') {"
+    },
+    {
+      "line_num": 168,
+      "content": "}, [initialEta, currentEta, occupancy, trafficLower, transferRisk.level]);"
+    },
+    {
+      "line_num": 172,
+      "content": "if (trafficLower === 'high' || trafficLower === 'heavy') {"
+    },
+    {
+      "line_num": 178,
+      "content": "if (occupancy > 80) {"
+    },
+    {
+      "line_num": 185,
+      "content": "<Activity className=\"w-5 h-5 text-indigo-600\" />"
+    },
+    {
+      "line_num": 194,
+      "content": "<AlertTriangle className=\"w-5 h-5 text-red-600 shrink-0\" />"
+    },
+    {
+      "line_num": 208,
+      "content": "healthLabel.color === 'green' ? 'text-emerald-600' :"
+    },
+    {
+      "line_num": 209,
+      "content": "healthLabel.color === 'blue' ? 'text-blue-600' :"
+    },
+    {
+      "line_num": 210,
+      "content": "healthLabel.color === 'orange' ? 'text-orange-600' : 'text-red-600'"
+    },
+    {
+      "line_num": 248,
+      "content": "transferRisk.color === 'green' ? 'text-emerald-600' :"
+    },
+    {
+      "line_num": 249,
+      "content": "transferRisk.color === 'orange' ? 'text-orange-600' : 'text-red-600'"
+    },
+    {
+      "line_num": 265,
+      "content": "<StatBadge label=\"Traffic Pressure\" value={`${trafficPressure}%`} color={trafficPressure > 60 ? 'red' : 'orange'} />"
+    },
+    {
+      "line_num": 284,
+      "content": "<div className=\"bg-white px-3 py-1 rounded-md border border-slate-200 text-slate-600\">"
+    },
+    {
+      "line_num": 286,
+      "content": "<span className=\"font-bold\">{seg.distance} km</span>"
+    },
+    {
+      "line_num": 288,
+      "content": "<div className=\"bg-white px-3 py-1 rounded-md border border-slate-200 text-slate-600\">"
+    },
+    {
+      "line_num": 291,
+      "content": "seg.trafficImpact.toLowerCase() === 'high' || seg.trafficImpact.toLowerCase() === 'heavy' ? 'text-red-500' :"
+    },
+    {
+      "line_num": 292,
+      "content": "seg.trafficImpact.toLowerCase() === 'medium' ? 'text-orange-500' : 'text-emerald-500'"
+    },
+    {
+      "line_num": 293,
+      "content": "}`}>{seg.trafficImpact}</span>"
+    },
+    {
+      "line_num": 312,
+      "content": "<span className=\"text-sm text-slate-600\">{insight}</span>"
+    },
+    {
+      "line_num": 91,
+      "content": "<td className=\"py-4 px-6 text-sm text-slate-600\">{row.name || row.description || 'Auto-discovered route'}</td>"
+    },
+    {
+      "line_num": 93,
+      "content": "<span className=\"bg-emerald-50 text-emerald-600 text-xs font-bold px-3 py-1 rounded-full\">Active</span>"
+    }
+  ],
+  "RouteComparison.jsx": [
+    {
+      "line_num": 17,
+      "content": "if (tLower === 'high' || tLower === 'heavy') return 'text-red-600';"
+    },
+    {
+      "line_num": 19,
+      "content": "return 'text-emerald-600';"
+    },
+    {
+      "line_num": 26,
+      "content": "const minTime = Math.min(...candidates.map(c => c.travel_time));"
+    },
+    {
+      "line_num": 29,
+      "content": "if (candidate.travel_time === minTime) {"
+    },
+    {
+      "line_num": 33,
+      "content": "const trafficL = candidate.traffic.toLowerCase();"
+    },
+    {
+      "line_num": 34,
+      "content": "if (trafficL === 'low') {"
+    },
+    {
+      "line_num": 35,
+      "content": "reasons.push('Low traffic conditions');"
+    },
+    {
+      "line_num": 36,
+      "content": "} else if (trafficL === 'medium') {"
+    },
+    {
+      "line_num": 37,
+      "content": "reasons.push('Manageable traffic conditions');"
+    },
+    {
+      "line_num": 40,
+      "content": "if (candidate.occupancy < 50) {"
+    },
+    {
+      "line_num": 41,
+      "content": "reasons.push('Low occupancy (comfortable seating)');"
+    },
+    {
+      "line_num": 42,
+      "content": "} else if (candidate.occupancy < 80) {"
+    },
+    {
+      "line_num": 43,
+      "content": "reasons.push('Moderate occupancy');"
+    },
+    {
+      "line_num": 63,
+      "content": "<Navigation className=\"w-5 h-5 text-indigo-600\" />"
+    },
+    {
+      "line_num": 70,
+      "content": "<Trophy className=\"w-24 h-24 text-indigo-600\" />"
+    },
+    {
+      "line_num": 85,
+      "content": "<li key={idx} className=\"flex items-center gap-2 text-sm text-slate-600\">"
+    },
+    {
+      "line_num": 95,
+      "content": "<p className=\"text-4xl font-extrabold text-indigo-600\">{recommendedCandidate.recommendation_score}</p>"
+    },
+    {
+      "line_num": 107,
+      "content": "<div className=\"bg-white/60 px-3 py-1.5 rounded-lg\">"
+    },
+    {
+      "line_num": 110,
+      "content": "<div className=\"bg-white/60 px-3 py-1.5 rounded-lg\">"
+    },
+    {
+      "line_num": 111,
+      "content": "<span className=\"text-slate-500\">Traffic:</span> <span className=\"font-semibold text-red-500\">-{recommendedCandidate.score_breakdown.traffic}</span>"
+    },
+    {
+      "line_num": 113,
+      "content": "<div className=\"bg-white/60 px-3 py-1.5 rounded-lg\">"
+    },
+    {
+      "line_num": 114,
+      "content": "<span className=\"text-slate-500\">Occupancy:</span> <span className=\"font-semibold text-red-500\">-{recommendedCandidate.score_breakdown.occupancy}</span>"
+    },
+    {
+      "line_num": 116,
+      "content": "<div className=\"bg-white/60 px-3 py-1.5 rounded-lg\">"
+    },
+    {
+      "line_num": 151,
+      "content": "<p className=\"text-xs text-slate-400\">Score: {cand.recommendation_score}</p>"
+    },
+    {
+      "line_num": 158,
+      "content": "<span className=\"font-bold text-slate-800\">{cand.travel_time} min</span>"
+    },
+    {
+      "line_num": 162,
+      "content": "<span className=\"font-bold text-slate-800\">{cand.distance_km} km</span>"
+    },
+    {
+      "line_num": 175,
+      "content": ": 'bg-slate-100 text-slate-600 hover:bg-slate-200'"
+    },
+    {
+      "line_num": 206,
+      "content": "{candidates.map(c => <td key={c.id} className=\"px-5 py-3 font-bold text-slate-800\">{c.travel_time} min</td>)}"
+    },
+    {
+      "line_num": 210,
+      "content": "{candidates.map(c => <td key={c.id} className=\"px-5 py-3 font-bold text-slate-800\">{c.distance_km} km</td>)}"
+    },
+    {
+      "line_num": 218,
+      "content": "{candidates.map(c => <td key={c.id} className=\"px-5 py-3 font-bold text-slate-800\">{c.occupancy}%</td>)}"
+    },
+    {
+      "line_num": 222,
+      "content": "{candidates.map(c => <td key={c.id} className={`px-5 py-3 font-bold ${getTrafficColor(c.traffic)}`}>{c.traffic}</td>)}"
+    }
+  ],
+  "RouteComparisonTable.jsx": [
+    {
+      "line_num": 19,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Route</th>"
+    },
+    {
+      "line_num": 20,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">ETA</th>"
+    },
+    {
+      "line_num": 21,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Traffic</th>"
+    },
+    {
+      "line_num": 22,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Occupancy</th>"
+    },
+    {
+      "line_num": 23,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Forecast Demand</th>"
+    },
+    {
+      "line_num": 24,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Optimization Score</th>"
+    },
+    {
+      "line_num": 25,
+      "content": "<th className=\"text-left py-3 px-4 font-semibold text-slate-600\">Selection Reason</th>"
+    },
+    {
+      "line_num": 53,
+      "content": "route.traffic === 'High' ? 'text-red-600' :"
+    },
+    {
+      "line_num": 54,
+      "content": "route.traffic === 'Medium' ? 'text-orange-500' :"
+    },
+    {
+      "line_num": 55,
+      "content": "'text-emerald-600'"
+    },
+    {
+      "line_num": 57,
+      "content": "{route.traffic || 'Normal'}"
+    },
+    {
+      "line_num": 63,
+      "content": "{route.occupancy_percent || '\u2014'}%"
+    },
+    {
+      "line_num": 74,
+      "content": "route.optimization_score >= 80 ? 'text-emerald-600' :"
+    },
+    {
+      "line_num": 75,
+      "content": "route.optimization_score >= 60 ? 'text-blue-600' :"
+    },
+    {
+      "line_num": 76,
+      "content": "'text-orange-600'"
+    },
+    {
+      "line_num": 82,
+      "content": "<span className=\"text-xs text-slate-600\">{route.selection_reason || '\u2014'}</span>"
+    }
+  ],
+  "RouteMap.jsx": [
+    {
+      "line_num": 150,
+      "content": "bg-background/60 gap-3 text-muted\""
+    },
+    {
+      "line_num": 198,
+      "content": "<span className=\"w-3 h-3 rounded-full bg-blue-600 inline-block\" /> Stop"
+    },
+    {
+      "line_num": 208,
+      "content": "position: 'absolute', top: 60, right: 16, zIndex: 400,"
+    },
+    {
+      "line_num": 212,
+      "content": "minWidth: 160"
+    },
+    {
+      "line_num": 217,
+      "content": "<span style={{ fontWeight: 600, color: 'var(--st-ink)' }}>{stats.totalStops}</span>"
+    },
+    {
+      "line_num": 219,
+      "content": "<span style={{ fontWeight: 600, color: 'var(--st-ink)' }}>{stats.distanceKm} km</span>"
+    },
+    {
+      "line_num": 221,
+      "content": "<span style={{ fontWeight: 600, color: 'var(--st-ink)' }}>{stats.etaMin} min</span>"
+    },
+    {
+      "line_num": 225,
+      "content": "<span style={{ fontWeight: 600, color: '#2563EB' }}>{stats.routeId}</span>"
+    },
+    {
+      "line_num": 231,
+      "content": "<span style={{ fontWeight: 600, color: '#10b981' }}>{stats.frequency}</span>"
+    },
+    {
+      "line_num": 262,
+      "content": "opacity:  0.85,"
+    },
+    {
+      "line_num": 272,
+      "content": "<span style={{ fontWeight: 600, color: '#10b981' }}>{first.stop_name} (Start)</span>"
+    },
+    {
+      "line_num": 296,
+      "content": "<span style={{ fontWeight: 600 }}>{stop.stop_name}</span>"
+    },
+    {
+      "line_num": 303,
+      "content": "<p className=\"font-bold text-orange-600 mb-0.5\">\ud83d\udd04 Transfer Point</p>"
+    },
+    {
+      "line_num": 325,
+      "content": "<span style={{ fontWeight: 600, color: '#ef4444' }}>{last.stop_name} (End)</span>"
+    },
+    {
+      "line_num": 329,
+      "content": "<p className=\"font-bold text-red-600 mb-0.5\">\ud83d\udd34 Destination</p>"
+    },
+    {
+      "line_num": 46,
+      "content": "<li className=\"flex items-center text-sm text-slate-600\">"
+    },
+    {
+      "line_num": 50,
+      "content": "<li className=\"flex items-center text-sm text-slate-600\">"
+    },
+    {
+      "line_num": 54,
+      "content": "<li className=\"flex items-center text-sm text-slate-600\">"
+    },
+    {
+      "line_num": 58,
+      "content": "<li className=\"flex items-center text-sm text-slate-600\">"
+    }
+  ],
+  "ServiceStatus.jsx": [
+    {
+      "line_num": 4,
+      "content": "traffic,"
+    },
+    {
+      "line_num": 5,
+      "content": "weather,"
+    },
+    {
+      "line_num": 10,
+      "content": "// Determine service status based on traffic, weather, and delay"
+    },
+    {
+      "line_num": 11,
+      "content": "const hasHeavyTraffic = traffic?.toLowerCase().includes('heavy');"
+    },
+    {
+      "line_num": 12,
+      "content": "const hasBadWeather = weather?.toLowerCase().includes('rain') || weather?.toLowerCase().includes('storm');"
+    },
+    {
+      "line_num": 29,
+      "content": "if (traffic?.toLowerCase().includes('heavy')) {"
+    },
+    {
+      "line_num": 30,
+      "content": "reasons.push('heavy traffic');"
+    },
+    {
+      "line_num": 32,
+      "content": "if (weather?.toLowerCase().includes('rain')) {"
+    },
+    {
+      "line_num": 35,
+      "content": "if (weather?.toLowerCase().includes('storm')) {"
+    },
+    {
+      "line_num": 81,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Delay Duration</span>"
+    },
+    {
+      "line_num": 87,
+      "content": "<span className=\"text-xs text-slate-600\">Reason: {delayReason}</span>"
+    },
+    {
+      "line_num": 98,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">ETA</span>"
+    },
+    {
+      "line_num": 105,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Weather</span>"
+    },
+    {
+      "line_num": 108,
+      "content": "{weather?.split(',')[0] || 'Clear'}"
+    }
+  ],
+  "WalkingInformation.jsx": [
+    {
+      "line_num": 5,
+      "content": "distanceKm,"
+    },
+    {
+      "line_num": 9,
+      "content": "const walkingTimeMinutes = distanceKm ? Math.round((distanceKm / 5) * 60) : 5;"
+    },
+    {
+      "line_num": 10,
+      "content": "const walkingDistanceKm = distanceKm || 0.5;"
+    },
+    {
+      "line_num": 11,
+      "content": "const arrivalTime = new Date(Date.now() + walkingTimeMinutes * 60000).toLocaleTimeString([], {"
+    },
+    {
+      "line_num": 30,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Walking Time</span>"
+    },
+    {
+      "line_num": 39,
+      "content": "<span className=\"text-xs text-slate-600 font-medium\">Walking Distance</span>"
+    }
+  ],
+  "AdminLayout.jsx": [
+    {
+      "line_num": 18,
+      "content": "subtitle: 'Route-level shortage/surplus, allocation recommendations, and explainability.'"
+    },
+    {
+      "line_num": 45,
+      "content": "<div className=\"ml-[260px] min-h-screen flex flex-col\">"
+    }
+  ],
+  "AdminSidebar.jsx": [
+    {
+      "line_num": 31,
+      "content": "<aside className=\"fixed left-0 top-0 z-20 flex h-screen w-[260px] flex-col border-r border-border bg-sidebar text-ink shadow-st-sm select-none\">"
+    }
+  ],
+  "AiInsightsPanel.jsx": [
+    {
+      "line_num": 30,
+      "content": "<p className=\"text-xs text-muted\">Explainable recommendations for today\u2019s operations.</p>"
+    },
+    {
+      "line_num": 36,
+      "content": "<div className=\"rounded-xl border border-dashed border-border bg-background/60 p-4 text-center text-sm text-muted\">"
+    },
+    {
+      "line_num": 37,
+      "content": "No insights available yet. Run forecasting and optimization to populate recommendations."
+    },
+    {
+      "line_num": 47,
+      "content": "<p className=\"text-sm font-semibold text-ink\">{it.recommendation}</p>"
+    }
+  ],
+  "AIPerformance.jsx": [
+    {
+      "line_num": 46,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">No demand aggregation data available yet.</h3>"
+    },
+    {
+      "line_num": 55,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">No forecasting data available yet.</h3>"
+    },
+    {
+      "line_num": 62,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">AI Performance Data Unavailable</h3>"
+    },
+    {
+      "line_num": 73,
+      "content": "<div className=\"text-sm font-medium text-indigo-600 mb-1\">RMSE</div>"
+    },
+    {
+      "line_num": 77,
+      "content": "<div className=\"text-sm font-medium text-emerald-600 mb-1\">MAE</div>"
+    },
+    {
+      "line_num": 81,
+      "content": "<div className=\"text-sm font-medium text-amber-600 mb-1\">Accuracy (MAPE)</div>"
+    },
+    {
+      "line_num": 85,
+      "content": "<div className=\"text-sm font-medium text-purple-600 mb-1\">Model Version</div>"
+    }
+  ],
+  "AnalyticsDashboard.jsx": [
+    {
+      "line_num": 193,
+      "content": "<div className=\"mt-4 h-[360px]\">"
+    }
+  ],
+  "AuditLogs.jsx": [
+    {
+      "line_num": 265,
+      "content": "className=\"hover:bg-background/60 cursor-pointer\""
+    },
+    {
+      "line_num": 347,
+      "content": "<div className=\"rounded-xl border border-border bg-background/60 p-3\">"
+    },
+    {
+      "line_num": 351,
+      "content": "<div className=\"rounded-xl border border-border bg-background/60 p-3\">"
+    }
+  ],
+  "DataQuality.jsx": [
+    {
+      "line_num": 14,
+      "content": "*     missing_weather_records: number,"
+    },
+    {
+      "line_num": 53,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">"
+    },
+    {
+      "line_num": 93,
+      "content": "* Present: missing_weather_records, optimization_failures, gtfs_stops"
+    },
+    {
+      "line_num": 98,
+      "content": "value: quality.details?.missing_weather_records ?? 0,"
+    },
+    {
+      "line_num": 99,
+      "content": "cls: 'border-red-100 bg-red-50 text-red-800 font-bold-value text-red-600',"
+    },
+    {
+      "line_num": 101,
+      "content": "valueCls: 'text-red-600',"
+    },
+    {
+      "line_num": 107,
+      "content": "valueCls: 'text-orange-600',"
+    },
+    {
+      "line_num": 114,
+      "content": "valueCls: 'text-teal-600',"
+    }
+  ],
+  "EmptyStatePanel.jsx": [
+    {
+      "line_num": 19,
+      "content": "<div className=\"h-full w-full rounded-2xl border border-dashed border-border bg-background/60 p-8 flex flex-col items-center justify-center text-center\">"
+    }
+  ],
+  "OptimizationInsights.jsx": [
+    {
+      "line_num": 137,
+      "content": "<tr key={`${row.route_id}-${row.timestamp}`} className=\"hover:bg-background/60\">"
+    },
+    {
+      "line_num": 139,
+      "content": "<td className=\"px-6 py-3 text-right text-ink\">{Number(row.predicted_demand || 0).toLocaleString()}</td>"
+    }
+  ],
+  "PipelineMonitor.jsx": [
+    {
+      "line_num": 43,
+      "content": "case 'empty': return 'text-slate-600 bg-slate-50 border-slate-200';"
+    },
+    {
+      "line_num": 46,
+      "content": "default: return 'text-slate-600 bg-slate-50 border-slate-200';"
+    },
+    {
+      "line_num": 91,
+      "content": "<span className=\"text-slate-500 text-sm font-medium mb-2 group-hover:text-indigo-600 transition-colors\">{item.label}</span>"
+    },
+    {
+      "line_num": 117,
+      "content": "<Icon className=\"w-5 h-5 text-slate-400 group-hover:text-indigo-600 transition-colors\" />"
+    }
+  ],
+  "StickyFilterBar.jsx": [
+    {
+      "line_num": 24,
+      "content": "<div className=\"sticky top-0 z-10 -mx-8 px-8 py-3 border-b border-border bg-surface/85 backdrop-blur-md\">"
+    }
+  ],
+  "UserManagement.jsx": [
+    {
+      "line_num": 168,
+      "content": "<tr key={u.id} className=\"hover:bg-background/60\">"
+    }
+  ],
+  "RouteLoadPie.jsx": [
+    {
+      "line_num": 23,
+      "content": "<span className=\"text-slate-600 font-medium flex-1\">{entry.value}</span>"
+    }
+  ],
+  "ModernSidebar.jsx": [
+    {
+      "line_num": 117,
+      "content": "<p style={{ fontSize: 11, color: '#2563EB', margin: 0, fontWeight: 600 }}>"
+    },
+    {
+      "line_num": 263,
+      "content": "width: 60, height: 60, borderRadius: '50%',"
+    }
+  ],
+  "Navbar.jsx": [
+    {
+      "line_num": 23,
+      "content": "<span className=\"text-sm font-medium text-slate-600\">Today</span>"
+    },
+    {
+      "line_num": 28,
+      "content": "<button className=\"relative p-2 text-slate-400 hover:text-slate-600 transition-colors bg-white border border-slate-200 rounded-full\">"
+    }
+  ],
+  "TransitMap.jsx": [
+    {
+      "line_num": 28,
+      "content": "[12.9800, 77.6000],"
+    },
+    {
+      "line_num": 38,
+      "content": "[12.9600, 77.5800],"
+    },
+    {
+      "line_num": 40,
+      "content": "[12.9400, 77.5600],"
+    },
+    {
+      "line_num": 58,
+      "content": "{ id: 'B1', route: 'R-12', position: [12.9800, 77.6000] },"
+    },
+    {
+      "line_num": 104,
+      "content": "<p className=\"text-sm text-slate-600\">Route: {bus.route}</p>"
+    }
+  ],
+  "CongestedRoutesTable.jsx": [
+    {
+      "line_num": 21,
+      "content": "<td className=\"py-3 px-4 text-sm text-slate-600\">{typeof row.currentLoad === 'number' ? `${row.currentLoad}%` : row.currentLoad}</td>"
+    },
+    {
+      "line_num": 22,
+      "content": "<td className=\"py-3 px-4 text-sm text-slate-600\">{row.predictedLoad}%</td>"
+    },
+    {
+      "line_num": 26,
+      "content": "row.status === 'High' ? \"bg-red-50 text-red-600\" : \"bg-orange-50 text-orange-600\""
+    }
+  ],
+  "Analytics.jsx": [
+    {
+      "line_num": 8,
+      "content": "{ time: '10:00', demand: 85 },"
+    },
+    {
+      "line_num": 9,
+      "content": "{ time: '12:00', demand: 60 },"
+    },
+    {
+      "line_num": 17,
+      "content": "{ route: 'R-01', utilization: 85 },"
+    },
+    {
+      "line_num": 71,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">No demand aggregation data available yet.</h3>"
+    },
+    {
+      "line_num": 85,
+      "content": "<h3 className=\"text-xl font-medium text-gray-600 mb-2\">No forecasting data available yet.</h3>"
+    }
+  ],
+  "Dashboard.jsx": [
+    {
+      "line_num": 53,
+      "content": "status: r.demand > 6000 ? 'High' : 'Medium'"
+    },
+    {
+      "line_num": 129,
+      "content": "<Activity className=\"w-5 h-5 mr-2 text-indigo-600\" />"
+    },
+    {
+      "line_num": 135,
+      "content": "<p className=\"text-sm text-slate-600\">{drlRecommendation?.action || 'System running optimally'}</p>"
+    },
+    {
+      "line_num": 139,
+      "content": "<p className=\"text-sm text-emerald-600 font-medium\">{drlRecommendation?.expectedReward || 'N/A'}</p>"
+    }
+  ],
+  "DynamicDecision.jsx": [
+    {
+      "line_num": 7,
+      "content": "const [recommendation, setRecommendation] = useState(null);"
+    },
+    {
+      "line_num": 62,
+      "content": "{recommendation ? ("
+    },
+    {
+      "line_num": 67,
+      "content": "{recommendation.action}"
+    },
+    {
+      "line_num": 72,
+      "content": "<h5 className=\"mb-0\">{recommendation.priorityRoutes.join(', ')}</h5>"
+    },
+    {
+      "line_num": 76,
+      "content": "<h5 className=\"mb-0 text-success\">{recommendation.expectedReward}</h5>"
+    },
+    {
+      "line_num": 83,
+      "content": "Input current state variables to generate dynamic DRL recommendations."
+    }
+  ],
+  "FleetManagement.jsx": [
+    {
+      "line_num": 59,
+      "content": "<span className=\"text-sm font-semibold text-slate-600\">Live Sync</span>"
+    }
+  ],
+  "OptimizeFleet.jsx": [
+    {
+      "line_num": 13,
+      "content": "bus_capacity: 60,"
+    },
+    {
+      "line_num": 52,
+      "content": "<label className=\"block text-xs font-semibold text-slate-600 mb-2\">Bus Capacity</label>"
+    },
+    {
+      "line_num": 61,
+      "content": "<label className=\"block text-xs font-semibold text-slate-600 mb-2\">Max Buses / Route</label>"
+    },
+    {
+      "line_num": 70,
+      "content": "<label className=\"block text-xs font-semibold text-slate-600 mb-2\">Cost / Bus ($)</label>"
+    },
+    {
+      "line_num": 132,
+      "content": "<td className=\"py-3 px-4 text-sm text-slate-600 text-center\">{Math.round(row.predicted_demand).toLocaleString()}</td>"
+    },
+    {
+      "line_num": 136,
+      "content": "<td className=\"py-3 px-4 text-sm text-slate-600 text-center font-medium\">"
+    },
+    {
+      "line_num": 149,
+      "content": "row.utilization_percent > 85 ? \"bg-red-500\" :"
+    },
+    {
+      "line_num": 150,
+      "content": "row.utilization_percent > 60 ? \"bg-emerald-500\" : \"bg-amber-500\""
+    },
+    {
+      "line_num": 155,
+      "content": "<span className=\"text-xs font-bold text-slate-600\">{row.utilization_percent.toFixed(1)}%</span>"
+    },
+    {
+      "line_num": 229,
+      "content": ".sort((a, b) => b.predicted_demand - a.predicted_demand)"
+    },
+    {
+      "line_num": 232,
+      "content": "const maxDemand = Math.max(...(results.allocated_buses?.map(r => r.predicted_demand) || [1]));"
+    },
+    {
+      "line_num": 233,
+      "content": "const width = `${(route.predicted_demand / maxDemand) * 100}%`;"
+    },
+    {
+      "line_num": 238,
+      "content": "<span className=\"font-bold text-primary shrink-0\">{route.predicted_demand} pax</span>"
+    },
+    {
+      "line_num": 252,
+      "content": "<CheckCircle className=\"w-5 h-5 text-emerald-600 shrink-0 mt-0.5\" />"
+    },
+    {
+      "line_num": 259,
+      "content": "<p className=\"text-xs text-emerald-600/70 mt-2 italic\">* Results loaded from recent cache.</p>"
+    }
+  ],
+  "PredictDemand.jsx": [
+    {
+      "line_num": 12,
+      "content": "weather: 'Clear',"
+    },
+    {
+      "line_num": 13,
+      "content": "traffic: 'Low'"
+    },
+    {
+      "line_num": 41,
+      "content": "demand: res.predicted_demand,"
+    },
+    {
+      "line_num": 42,
+      "content": "confidence: 85, // Backend might return this, using 85 as fallback if not in payload"
+    },
+    {
+      "line_num": 113,
+      "content": "value={formData.weather}"
+    },
+    {
+      "line_num": 114,
+      "content": "onChange={e => setFormData({...formData, weather: e.target.value})}"
+    },
+    {
+      "line_num": 129,
+      "content": "value={formData.traffic}"
+    },
+    {
+      "line_num": 130,
+      "content": "onChange={e => setFormData({...formData, traffic: e.target.value})}"
+    },
+    {
+      "line_num": 162,
+      "content": "<div className=\"bg-gradient-to-br from-primary to-purple-600 rounded-xl shadow-lg p-8 text-white h-full relative overflow-hidden transition-all animate-in fade-in slide-in-from-right-8\">"
+    }
+  ],
+  "Prediction.jsx": [
+    {
+      "line_num": 9,
+      "content": "weatherCondition: 'clear'"
+    },
+    {
+      "line_num": 55,
+      "content": "<Form.Select onChange={e => setFormData({...formData, weatherCondition: e.target.value})}>"
+    }
+  ],
+  "PredictionHistory.jsx": [
+    {
+      "line_num": 82,
+      "content": "<td className=\"py-4 px-6 text-sm text-slate-600\">"
+    },
+    {
+      "line_num": 90,
+      "content": "row.confidence_score > 0.8 ? \"bg-emerald-50 text-emerald-600\" : \"bg-amber-50 text-amber-600\""
+    },
+    {
+      "line_num": 111,
+      "content": "className=\"p-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 disabled:opacity-50 transition-all\""
+    },
+    {
+      "line_num": 118,
+      "content": "className=\"p-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 disabled:opacity-50 transition-all\""
+    }
+  ],
+  "SystemHealth.jsx": [
+    {
+      "line_num": 38,
+      "content": "<div className={`p-2 rounded-lg ${isReady ? 'bg-emerald-50 text-emerald-600' : 'bg-red-50 text-red-600'}`}>"
+    },
+    {
+      "line_num": 155,
+      "content": "<div className={`h-1.5 rounded-full ${health.metrics.disk_usage > 85 ? 'bg-red-500' : 'bg-amber-500'}`} style={{ width: `${health.metrics.disk_usage}%` }}></div>"
+    }
+  ],
+  "TripPlanner.jsx": [
+    {
+      "line_num": 14,
+      "content": "// Helper: passenger-friendly crowd level"
+    },
+    {
+      "line_num": 16,
+      "content": "// Convert predicted_demand (pax count) \u2192 occupancy %"
+    },
+    {
+      "line_num": 19,
+      "content": "// Assume capacity ~60 seats; cap at 100"
+    },
+    {
+      "line_num": 20,
+      "content": "return Math.min(Math.round((demand / 60) * 100), 100);"
+    },
+    {
+      "line_num": 23,
+      "content": "// Service recommendation from fleet data"
+    },
+    {
+      "line_num": 24,
+      "content": "function getServiceInfo(result, occupancyPct) {"
+    },
+    {
+      "line_num": 31,
+      "content": "predicted_demand: result?.predicted_demand,"
+    },
+    {
+      "line_num": 34,
+      "content": "const currentDemand  = result?.predicted_demand || 0;"
+    },
+    {
+      "line_num": 45,
+      "content": "const demandLevel = currentDemand > 130 ? 'High' : currentDemand < 60 ? 'Low' : 'Moderate';"
+    },
+    {
+      "line_num": 48,
+      "content": "// High occupancy (>85%) should always recommend more buses"
+    },
+    {
+      "line_num": 49,
+      "content": "// Moderate occupancy (60-85%) should have sufficient fleet"
+    },
+    {
+      "line_num": 50,
+      "content": "// Low occupancy (<60%) should not need additional buses"
+    },
+    {
+      "line_num": 53,
+      "content": "if (occupancyPct > 85) {"
+    },
+    {
+      "line_num": 54,
+      "content": "// High crowd: always recommend more buses if required > available"
+    },
+    {
+      "line_num": 56,
+      "content": "} else if (occupancyPct >= 60) {"
+    },
+    {
+      "line_num": 57,
+      "content": "// Moderate crowd: fleet should be sufficient"
+    },
+    {
+      "line_num": 60,
+      "content": "// Low crowd: no additional buses needed"
+    },
+    {
+      "line_num": 66,
+      "content": "demandLevel,"
+    },
+    {
+      "line_num": 88,
+      "content": "<svg width=\"100\" height=\"60\" viewBox=\"0 0 100 60\">"
+    },
+    {
+      "line_num": 213,
+      "content": "<p style={{ fontSize: 11, color: 'var(--st-muted)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em' }}>"
+    },
+    {
+      "line_num": 355,
+      "content": "travel_time: data.travel_time"
+    },
+    {
+      "line_num": 402,
+      "content": "const occupancyPct = result"
+    },
+    {
+      "line_num": 403,
+      "content": "? (result.occupancy_percent || demandToOccupancy(result.predicted_demand))"
+    },
+    {
+      "line_num": 405,
+      "content": "const crowdLevel = result?.crowd_level || \"Unknown\";"
+    },
+    {
+      "line_num": 408,
+      "content": "const crowdColor = crowdLevel === 'High' ? '#F59E0B' : crowdLevel === 'Moderate' ? '#EAB308' : '#16A34A';"
+    },
+    {
+      "line_num": 409,
+      "content": "const crowdBg = crowdLevel === 'High' ? 'rgba(245,158,11,0.12)' : crowdLevel === 'Moderate' ? 'rgba(234,179,8,0.12)' : 'rgba(22,163,74,0.12)';"
+    },
+    {
+      "line_num": 410,
+      "content": "const crowdBorder = crowdLevel === 'High' ? 'rgba(245,158,11,0.35)' : crowdLevel === 'Moderate' ? 'rgba(234,179,8,0.35)' : 'rgba(22,163,74,0.35)';"
+    },
+    {
+      "line_num": 411,
+      "content": "const serviceInfo = result ? getServiceInfo(result, occupancyPct) : null;"
+    },
+    {
+      "line_num": 416,
+      "content": "const distanceKm = result?.total_distance_km || result?.distance_km || 0;"
+    },
+    {
+      "line_num": 419,
+      "content": "let etaMin = result?.eta_min ?? result?.estimated_travel_time ?? 0;"
+    },
+    {
+      "line_num": 421,
+      "content": "// Fallback calculation if backend returns 0 but distance > 0"
+    },
+    {
+      "line_num": 422,
+      "content": "if (etaMin === 0 && distanceKm > 0) {"
+    },
+    {
+      "line_num": 423,
+      "content": "etaMin = Math.round(distanceKm * 5); // Rough estimate: 5 min per km"
+    },
+    {
+      "line_num": 431,
+      "content": "backend_travel_time: result?.travel_time,"
+    },
+    {
+      "line_num": 433,
+      "content": "distanceKm: distanceKm"
+    },
+    {
+      "line_num": 440,
+      "content": "if (distanceKm > 0 && etaMin === 0) {"
+    },
+    {
+      "line_num": 642,
+      "content": "padding: '60px 24px',"
+    },
+    {
+      "line_num": 660,
+      "content": "<p style={{ fontSize: 13, color: 'var(--st-muted)' }}>Analysing live traffic, demand forecast, and bus availability</p>"
+    },
+    {
+      "line_num": 710,
+      "content": "{ icon: '\ud83d\udccd', label: 'Distance', value: `${distanceKm} km` },"
+    },
+    {
+      "line_num": 724,
+      "content": "<div style={{ width: '100%', minHeight: 360, position: 'relative' }}>"
+    },
+    {
+      "line_num": 746,
+      "content": "distanceKm,"
+    },
+    {
+      "line_num": 753,
+      "content": "<div style={{ minHeight: 360, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 12, color: 'var(--st-muted)' }}>"
+    },
+    {
+      "line_num": 761,
+      "content": "{result?.context?.traffic && ("
+    },
+    {
+      "line_num": 770,
+      "content": "<span style={{ fontSize: 12, color: 'var(--st-muted)', fontWeight: 600 }}>Live Traffic:</span>"
+    },
+    {
+      "line_num": 774,
+      "content": "background: result.context.traffic === 'Low' ? 'rgba(22,163,74,0.12)' : result.context.traffic === 'High' ? 'rgba(239,68,68,0.12)' : 'rgba(245,158,11,0.12)',"
+    },
+    {
+      "line_num": 775,
+      "content": "color: result.context.traffic === 'Low' ? '#16A34A' : result.context.traffic === 'High' ? '#EF4444' : '#F59E0B',"
+    },
+    {
+      "line_num": 779,
+      "content": "{result.context.traffic}"
+    },
+    {
+      "line_num": 790,
+      "content": "background: crowdBg,"
+    },
+    {
+      "line_num": 791,
+      "content": "border: `1.5px solid ${crowdBorder}`,"
+    },
+    {
+      "line_num": 799,
+      "content": "<p style={{ fontSize: 22, fontWeight: 900, color: crowdColor, marginBottom: 6 }}>{crowdLevel} Crowd</p>"
+    },
+    {
+      "line_num": 803,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>\ud83d\udc65 Expected Passengers</p>"
+    },
+    {
+      "line_num": 804,
+      "content": "<p style={{ fontSize: 18, fontWeight: 800, color: 'var(--st-ink)' }}>{result?.predicted_demand || '\u2014'}</p>"
+    },
+    {
+      "line_num": 808,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}><CheckCircle2 size={16} /> Comfort Level</p>"
+    },
+    {
+      "line_num": 809,
+      "content": "<p style={{ fontSize: 14, fontWeight: 700, color: crowdColor }}>"
+    },
+    {
+      "line_num": 814,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>\u23f0 Best Time to Travel</p>"
+    },
+    {
+      "line_num": 822,
+      "content": "<OccupancyGauge percent={occupancyPct} color={crowdColor} />"
+    },
+    {
+      "line_num": 839,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>Current Demand</p>"
+    },
+    {
+      "line_num": 840,
+      "content": "<p style={{ fontSize: 16, fontWeight: 800, color: 'var(--st-ink)' }}>{serviceInfo.demandLevel}</p>"
+    },
+    {
+      "line_num": 843,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>Required Fleet</p>"
+    },
+    {
+      "line_num": 847,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>Available Fleet</p>"
+    },
+    {
+      "line_num": 851,
+      "content": "<p style={{ fontSize: 10, color: 'var(--st-muted)', fontWeight: 600, marginBottom: 3 }}>Recommendation</p>"
+    },
+    {
+      "line_num": 894,
+      "content": "style={{ display: 'flex', alignItems: 'center', gap: 5, background: 'none', border: 'none', color: '#2563EB', cursor: 'pointer', fontSize: 13, fontWeight: 600 }}"
+    },
+    {
+      "line_num": 901,
+      "content": "<div style={{ padding: '20px 24px', maxHeight: timelineExpanded ? 600 : 220, overflow: 'auto', transition: 'max-height 0.4s ease' }}>"
+    },
+    {
+      "line_num": 956,
+      "content": "<GlanceCard icon=\"\ud83d\udccd\" label=\"Distance\" value={`${distanceKm} km`} color=\"#8B5CF6\" />"
+    },
+    {
+      "line_num": 975,
+      "content": "padding: '60px 24px',"
+    },
+    {
+      "line_num": 986,
+      "content": "Select your departure and destination stops above to discover the best route, expected crowd levels, and comfort insights."
+    },
+    {
+      "line_num": 991,
+      "content": "<span key={feat} style={{ padding: '6px 14px', borderRadius: 20, background: 'rgba(37,99,235,0.08)', color: '#2563EB', fontSize: 12, fontWeight: 600 }}>"
+    }
+  ],
+  "AdminLogin.jsx": [
+    {
+      "line_num": 87,
+      "content": "<label className=\"block text-sm font-medium text-slate-600 mb-2\">Username</label>"
+    },
+    {
+      "line_num": 104,
+      "content": "<label className=\"block text-sm font-medium text-slate-600 mb-2\">Password</label>"
+    },
+    {
+      "line_num": 121,
+      "content": "<div className=\"rounded-2xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-600\">"
+    }
+  ],
+  "DemandForecastingFleetOptimization.jsx": [
+    {
+      "line_num": 48,
+      "content": "<div className=\"p-4 bg-red-50 text-red-600 rounded-lg border border-red-200\">"
+    },
+    {
+      "line_num": 61,
+      "content": "<p className=\"text-slate-500 text-sm mt-1\">Operational analytics and AI-driven fleet recommendations.</p>"
+    },
+    {
+      "line_num": 75,
+      "content": "<p className=\"text-2xl font-extrabold text-indigo-700 mt-1\">{data?.predicted_demand}</p>"
+    },
+    {
+      "line_num": 79,
+      "content": "<p className=\"text-2xl font-extrabold text-emerald-600 mt-1\">{data?.demand_confidence}%</p>"
+    },
+    {
+      "line_num": 83,
+      "content": "<p className=\"text-lg font-bold text-amber-600 mt-1 uppercase\">{data?.peak_status || 'N/A'}</p>"
+    },
+    {
+      "line_num": 88,
+      "content": "<Cloud className=\"w-4 h-4 text-sky-500\" /> {data?.weather_impact || 'N/A'}"
+    },
+    {
+      "line_num": 119,
+      "content": "{data?.fleet_gap > 0 ? <AlertTriangle className=\"w-5 h-5 shrink-0 mt-0.5 text-red-600\" /> : <CheckCircle className=\"w-5 h-5 shrink-0 mt-0.5 text-emerald-600\" />}"
+    },
+    {
+      "line_num": 122,
+      "content": "<p className=\"text-sm\">{data?.recommendation}</p>"
+    },
+    {
+      "line_num": 138,
+      "content": "<p className={`text-3xl font-extrabold mt-2 ${data?.fleet_gap > 0 ? 'text-red-600' : data?.fleet_gap < 0 ? 'text-emerald-600' : 'text-slate-600'}`}>"
+    },
+    {
+      "line_num": 144,
+      "content": "<p className=\"text-3xl font-extrabold text-indigo-600 mt-2\">{data?.fleet_utilization}%</p>"
+    },
+    {
+      "line_num": 159,
+      "content": "<span className=\"text-sm font-medium text-slate-600\">Route Efficiency</span>"
+    },
+    {
+      "line_num": 160,
+      "content": "<span className=\"text-sm font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded\">{data?.route_efficiency != null ? `${data.route_efficiency}%` : 'N/A'}</span>"
+    },
+    {
+      "line_num": 163,
+      "content": "<span className=\"text-sm font-medium text-slate-600\">Average Delay</span>"
+    },
+    {
+      "line_num": 164,
+      "content": "<span className=\"text-sm font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded\">{data?.average_delay != null ? `${data.average_delay} min` : 'N/A'}</span>"
+    },
+    {
+      "line_num": 167,
+      "content": "<span className=\"text-sm font-medium text-slate-600\">ETA Accuracy</span>"
+    },
+    {
+      "line_num": 168,
+      "content": "<span className=\"text-sm font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded\">{data?.eta_accuracy != null ? `${data.eta_accuracy}%` : 'N/A'}</span>"
+    },
+    {
+      "line_num": 171,
+      "content": "<span className=\"text-sm font-medium text-slate-600\">Transfer Analysis</span>"
+    }
+  ],
+  "AIAssistant.jsx": [
+    {
+      "line_num": 8,
+      "content": "'How crowded is this route?',"
+    },
+    {
+      "line_num": 20,
+      "content": "text: \"Hello! I'm your Transit AI Assistant. I can help you with journey planning, crowd levels, travel times, and bus availability. Tell me where you'd like to travel.\","
+    }
+  ],
+  "Home.jsx": [
+    {
+      "line_num": 70,
+      "content": "const weather = getWeatherCondition();"
+    },
+    {
+      "line_num": 196,
+      "content": "<weather.icon className=\"w-5 h-5 text-accent-cyan\" />"
+    },
+    {
+      "line_num": 206,
+      "content": "<p className=\"text-2xl font-extrabold text-ink\">{weather.temp}\u00b0C</p>"
+    },
+    {
+      "line_num": 207,
+      "content": "<p className=\"text-xs text-muted\">{weather.condition}</p>"
+    },
+    {
+      "line_num": 209,
+      "content": "<weather.icon className=\"w-10 h-10 text-accent-cyan\" />"
+    },
+    {
+      "line_num": 213,
+      "content": "{weather.advice}"
+    }
+  ],
+  "RouteHistoryPage.jsx": [
+    {
+      "line_num": 96,
+      "content": "{sub && <p className=\"text-xs text-white/60 z-10\">{sub}</p>}"
+    }
+  ],
+  "RouteInfo.jsx": [
+    {
+      "line_num": 62,
+      "content": "<p className=\"text-red-600 text-sm mb-4\">{error}</p>"
+    },
+    {
+      "line_num": 65,
+      "content": "className=\"inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors\""
+    },
+    {
+      "line_num": 95,
+      "content": "<div className=\"flex items-start text-sm text-slate-600\">"
+    }
+  ],
+  "RouteStatus.jsx": [
+    {
+      "line_num": 72,
+      "content": "<p className=\"text-red-600 text-sm mb-4\">{error}</p>"
+    },
+    {
+      "line_num": 75,
+      "content": "className=\"inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors\""
+    }
+  ],
+  "SignupPage.jsx": [
+    {
+      "line_num": 77,
+      "content": "<div className=\"rounded-2xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-600\">"
+    },
+    {
+      "line_num": 83,
+      "content": "<label className=\"block text-sm font-medium text-slate-600 mb-2\">Username</label>"
+    },
+    {
+      "line_num": 100,
+      "content": "<label className=\"block text-sm font-medium text-slate-600 mb-2\">Password</label>"
+    },
+    {
+      "line_num": 116,
+      "content": "<div className=\"rounded-2xl border border-primary/10 bg-primary/5 px-4 py-3 text-sm text-slate-600\">"
+    }
+  ],
+  "TransitAIAssistant.jsx": [
+    {
+      "line_num": 35,
+      "content": "<p className=\"text-sm font-bold text-ink\">{data.distance_km || data.total_distance_km} km</p>"
+    },
+    {
+      "line_num": 63,
+      "content": "<span>{route.distance} km</span>"
+    },
+    {
+      "line_num": 65,
+      "content": "<span>{route.walking_distance}m walk</span>"
+    },
+    {
+      "line_num": 209,
+      "content": "<Clock className=\"w-3 h-3 opacity-60\" />"
+    },
+    {
+      "line_num": 210,
+      "content": "<span className=\"text-xs opacity-60\">{formatTime(message.timestamp)}</span>"
+    }
+  ],
+  "tripHelpers.js": [
+    {
+      "line_num": 7,
+      "content": "const maxOccupancy = buses.reduce((max, bus) => Math.max(max, bus.occupancy), 0);"
+    },
+    {
+      "line_num": 14,
+      "content": "insights.push(\"Expect crowded buses during this trip. Secure your boarding pass early.\");"
+    },
+    {
+      "line_num": 17,
+      "content": "if (formData.traffic?.toLowerCase() === 'high') {"
+    },
+    {
+      "line_num": 18,
+      "content": "insights.push(\"Consider alternate routes for faster travel to bypass heavy traffic zones.\");"
+    },
+    {
+      "line_num": 25,
+      "content": "* Maps occupancy percentage to a strict color representation."
+    },
+    {
+      "line_num": 30,
+      "content": "export const getOccupancyColorClass = (occupancy) => {"
+    },
+    {
+      "line_num": 31,
+      "content": "if (occupancy <= 50) return \"bg-emerald-500\";"
+    },
+    {
+      "line_num": 32,
+      "content": "if (occupancy <= 80) return \"bg-orange-500\";"
+    },
+    {
+      "line_num": 43,
+      "content": "if (cond.includes('traffic') || cond.includes('heavy')) return 'bg-red-500/20 text-red-400 border-red-500/30';"
+    },
+    {
+      "line_num": 44,
+      "content": "return 'bg-slate-700 text-slate-300 border-slate-600';"
+    }
+  ]
+}

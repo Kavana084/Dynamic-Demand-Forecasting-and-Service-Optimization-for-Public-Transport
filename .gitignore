@@ -1,0 +1,77 @@
+# Python cache
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ML artifacts
+catboost_info/
+
+# Generated outputs
+outputs/
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+build/
+
+# Archives
+*.zip
+
+# Temporary reports
+audit_*.txt
+search_*.txt
+*_output.txt
+*_results.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.sql
+*.backup*
+
+# Logs
+*.log
+
+# OTP generated files
+otp/*.jar
+otp/*.obj
+otp/*.pbf
+
+# Large generated datasets
+DataSet/synthetic_passenger_demand*.csv
+
+# Temporary scripts/output
+*_output.txt
+*_results.txt
+matches.txt
+funcs.txt
+# datasets
+DataSet/real_data/
+DataSet/syn_data/*.csv
+otp/real_data/
+backend/*.csv
+
+# generated debug files
+**/*debug*.json

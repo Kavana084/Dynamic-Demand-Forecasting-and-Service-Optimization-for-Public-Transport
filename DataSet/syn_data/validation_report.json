@@ -1,0 +1,94 @@
+{
+  "duplicate_records": 0,
+  "missing_values": {},
+  "passenger_statistics": {
+    "min": 0,
+    "max": 120,
+    "mean": 41.08516368081286,
+    "std": 19.062586144762168
+  },
+  "congestion_index_range": {
+    "min": 0.2,
+    "max": 0.9
+  },
+  "average_speed_range": {
+    "min": 5,
+    "max": 44
+  },
+  "vehicle_capacity_range": {
+    "min": 40,
+    "max": 80
+  },
+  "delay_statistics": {
+    "traffic_delay_max": 17,
+    "weather_delay_max": 9,
+    "total_delay_max": 28
+  },
+  "categorical_values": {
+    "time_slot": [
+      "Morning Peak",
+      "Morning",
+      "Afternoon",
+      "Evening Peak",
+      "Night",
+      "Late Night",
+      "Early Morning"
+    ],
+    "day_of_week": [
+      "Tuesday",
+      "Saturday",
+      "Wednesday",
+      "Thursday",
+      "Monday",
+      "Sunday",
+      "Friday"
+    ],
+    "weekday_weekend": [
+      "Weekday",
+      "Weekend"
+    ],
+    "weather_condition": [
+      "Sunny",
+      "Fog",
+      "Cloudy",
+      "Heavy Rain",
+      "Light Rain",
+      "Thunderstorm"
+    ],
+    "traffic_level": [
+      "Low",
+      "High",
+      "Medium",
+      "Severe"
+    ],
+    "service_frequency_category": [
+      "Sparse",
+      "Normal",
+      "Very Frequent"
+    ],
+    "area_type": [
+      "Interchange",
+      "Mixed",
+      "Educational",
+      "Hospital",
+      "Residential",
+      "Market",
+      "Commercial",
+      "Industrial"
+    ],
+    "demand_class": [
+      "Medium",
+      "High",
+      "Very High",
+      "Low"
+    ]
+  },
+  "passenger_distribution": {
+    "0-20": 32218,
+    "21-40": 111085,
+    "41-60": 75070,
+    "61-80": 34337,
+    "81-100": 7597,
+    "above_100": 1483
+  }
+}
